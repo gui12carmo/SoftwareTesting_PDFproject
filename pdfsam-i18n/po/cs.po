@@ -1,0 +1,1326 @@
+# Czech translation for pdfsam
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the pdfsam package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: pdfsam\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-10-23 17:08+0200\n"
+"PO-Revision-Date: 2025-10-23 12:32+0200\n"
+"Last-Translator: Marek Hladík <mhladik@seznam.cz>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2025-04-17 17:36+0000\n"
+"X-Generator: Autopo v1.0.6-SNAPSHOT\n"
+"Language: cs\n"
+
+msgid "No PDF document has been selected"
+msgstr "Nebyl vybrán žádný PDF dokument"
+
+msgid "Extract"
+msgstr "Extrahovat"
+
+msgid "Extract pages from PDF documents."
+msgstr "Extrahovat stránky z PDF dokumentů"
+
+msgid "File names settings"
+msgstr "Nastavení názvů souborů"
+
+msgid "Extract settings"
+msgstr "Nastavení extrahování"
+
+msgid "Output settings"
+msgstr "Nastavení výstupu"
+
+msgid "A separate file for each set of pages"
+msgstr "Samostatný soubor pro každou sadu stránek"
+
+msgid "Each continuous series of pages will generate a separate PDF file"
+msgstr "Každá souvislá série stránek vygeneruje samostatný soubor PDF"
+
+msgid "Pages to extract (ex: 2 or 5-23 or 2,5-7,12- or 3,last)"
+msgstr "Stránky k extrakci (např. 2 nebo 5-23 nebo 2,5-7,12-)"
+
+msgid "Invalid page ranges"
+msgstr "Neplatný rozsah stránek"
+
+msgid "Extract pages:"
+msgstr "Extrahovat stránky:"
+
+msgid ""
+"Comma separated page numbers or ranges to extract (ex: 2 or 5-23 or 2,5-7,12-"
+" or 3,last)"
+msgstr ""
+"Čárkou oddělené čísla stránek nebo číselné rozsahy stránek (např. 2 nebo 5-"
+"23 nebo 2,5-7,12-)"
+
+msgid "Split by bookmarks"
+msgstr "Rozdělit podle záložek"
+
+msgid ""
+"Split a PDF document at bookmarked pages by specifying a bookmark level."
+msgstr "Rozdělit PDF dle zazáložkovaných stránek a zadání úrovně záložek."
+
+msgid "Regular expression the bookmark has to match"
+msgstr "Regulérní výraz záložky musí odpovídat"
+
+msgid "Split at this bookmark level:"
+msgstr "Rozdělit na této úrovni záložek:"
+
+msgid "Matching regular expression:"
+msgstr "Odpovídající regulérní výraz:"
+
+msgid "A regular expression the bookmark text has to match"
+msgstr "Regulérní výraz musí odpovídat textu záložky"
+
+msgid ""
+"Example: use .*Chapter.* to match bookmarks containing the word \"Chapter\""
+msgstr ""
+"Příklad: použitje .*kapitola.* pro zvolení záložek obsahujících slovo "
+"\"kapitola\""
+
+msgid "Select or drag and drop the PDF you want to split"
+msgstr "Vyberte nebo přetáhněte PDF, které si přejete rozdělit"
+
+msgid "Split settings"
+msgstr "Nastavení dělení"
+
+msgid "Invalid bookmarks level"
+msgstr "Neplatná úroveň záložek"
+
+msgid "Split after"
+msgstr "Rozdělit po"
+
+msgid "No page selected"
+msgstr "Žádná stránka nebyla vybrána"
+
+msgid "Split"
+msgstr "Rozdělit"
+
+msgid "Split a PDF document at the given page numbers."
+msgstr "Rozdělí PDF podle definovaných stránek."
+
+msgid "Every page"
+msgstr "Každá stránka"
+
+msgid "Even pages"
+msgstr "Sudé stránky"
+
+msgid "Odd pages"
+msgstr "Liché stránky"
+
+msgid "Split the document after the given page numbers"
+msgstr "Rozdělit dokument za definovanými stránkami"
+
+msgid "Splits the PDF every \"n\" pages creating documents of \"n\" pages each"
+msgstr "Rozdělit PDF po \"n\" stránkách"
+
+msgid "Split after the following page numbers"
+msgstr "Rozdělit za těmito stránkami"
+
+msgid "Page numbers to split at (n1,n2,n3..)"
+msgstr "Čísla dělících stránek (n1, n2, n3, ...)"
+
+msgid "Invalid page numbers"
+msgstr "Neplatná čísla stránek"
+
+msgid "Only valid positive page numbers are allowed"
+msgstr "Jsou povolena pouze celá, kladná čísla"
+
+msgid "Split by every \"n\" pages"
+msgstr "Rozdělit po \"n\" stránkách"
+
+msgid "Number of pages"
+msgstr "Počet stránek"
+
+msgid "Invalid number of pages"
+msgstr "Nepltaný počet stránek"
+
+msgid "Megabytes"
+msgstr "Megabajtů"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "Kilobytes"
+msgstr "Kilobajtů"
+
+msgid "KB"
+msgstr "kB"
+
+msgid "Split by size"
+msgstr "Rozdělit podle velikosti"
+
+msgid "Split a PDF document in files of the given size (roughly)."
+msgstr "Rozdělit PDF na soubory dané velikosti (přibližně)."
+
+msgid "Set the size to split at"
+msgstr "Zvolte velikost souboru"
+
+msgid "Size must be a number"
+msgstr "Velikost musí být číslo"
+
+msgid "Split at this size:"
+msgstr "Rozdělit na velikost:"
+
+msgid "Invalid split size"
+msgstr "Chybná velikost rozdělování"
+
+msgid "Destination file"
+msgstr "Cílový soubor"
+
+msgid "Alternate Mix"
+msgstr "Alternativní míchání souborů"
+
+msgid ""
+"Merge two or more PDF documents taking pages alternately in natural or "
+"reverse order."
+msgstr ""
+"Sloučit dva nebo více PDF dokumentů, ve kterých se strany střídají v "
+"přirozeném nebo opačném pořadí."
+
+msgid "Double click to set pages you want to mix (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+"Poklepáním nastavte stránky, které chcete smíchat (např. 2 nebo 5-23 nebo "
+"2,5-7,12-)"
+
+msgid "Select a positive integer number as pace"
+msgstr "Pro krokování vyberte kladné celé číslo."
+
+msgid "All pages"
+msgstr "Všechny stránky"
+
+msgid "90 degrees clockwise"
+msgstr "o 90°"
+
+msgid "180 degrees clockwise"
+msgstr "o 180°"
+
+msgid "90 degrees counterclockwise"
+msgstr "o -90°"
+
+msgid "Rotate "
+msgstr "Obrátit "
+
+msgid "Rotate settings"
+msgstr "Nastavení rotace"
+
+msgid "Rotate"
+msgstr "Otočení"
+
+msgid "Rotate the pages of multiple PDF documents."
+msgstr "Otočit stránky u více PDF."
+
+msgid ""
+"Double click to set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+"Poklepáním nastavte stránky, které chcete otočit (např. 2 nebo 5-23 nebo 2,5-"
+"7,12-)"
+
+msgid "Merge settings"
+msgstr "Nastavení slučování"
+
+msgid ""
+"Double click to set pages you want to merge (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+"Dvakrát klikněte na stránky, které chcete sloučit (př: 2 nebo 5-23 nebo 2,5-"
+"7,12-)"
+
+msgid "Add a blank page if page number is odd"
+msgstr "Přidat prázdnou stránku, pokud je počet stránek lichý"
+
+msgid ""
+"Adds a blank page after each merged document if the document has an odd "
+"number of pages"
+msgstr ""
+"Přidat prázdnou stránku za každý dokument, pokud má lichý počet stránek"
+
+msgid "Add a footer"
+msgstr "Přidat zápatí"
+
+msgid "Adds a page footer with the name of the file the page belonged to."
+msgstr "Přidat zápatí s názvem souboru, ke kterému stránka patřila"
+
+msgid "None"
+msgstr "Žádné"
+
+msgid "Same width as first page"
+msgstr "Stejná šířka jako má první stránka"
+
+msgid "Same width as first page (based on page orientation)"
+msgstr "Stejná šířka jako má první stránka (na základě orientace stránky)"
+
+msgid "Pages normalization:"
+msgstr "Normalizace stránek:"
+
+msgid ""
+"Set whether pages should be resized to all have the same width as the first "
+"one"
+msgstr ""
+"Nastavit, zda má být velikost stránek změněna tak, aby všechny měly stejnou "
+"šířku jako ta první"
+
+msgid "Merge renaming existing fields"
+msgstr "Sloučit přejmenovaná existující pole"
+
+msgid "Merge fields"
+msgstr "Sloučit pole"
+
+msgid "Flatten"
+msgstr "Sloučit"
+
+msgid "Discard forms"
+msgstr "Zrušit formuláře"
+
+msgid "Interactive forms (AcroForms):"
+msgstr "Interaktivní formuláře (AcroForms):"
+
+msgid "What to do in case one or more input documents contain Acro Forms"
+msgstr ""
+"Co udělat v případě, že jeden nebo více vstupních dokumentů obsahuje Acro "
+"Forms"
+
+msgid "Retain bookmarks"
+msgstr "Zachovat záložky"
+
+msgid "Discard bookmarks"
+msgstr "Zrušit záložky"
+
+msgid "Create one entry for each merged document"
+msgstr "Vytvořit položku pro každý sloučený dokument"
+
+msgid "Retain bookmarks as one entry for each merged document"
+msgstr "Zachovat záložky jako jednu položku pro každý sloučený dokument"
+
+msgid "Bookmarks handling:"
+msgstr "Manipulace se záložkami:"
+
+msgid "What to do in case one or more input documents contain bookmarks"
+msgstr ""
+"Co udělat v případě, že jeden nebo více vstupních dokumentů obsahuje záložky"
+
+msgid "Don't generate"
+msgstr "Negenerovat"
+
+msgid "Generate from file names"
+msgstr "Generova z názvu souborů"
+
+msgid "Generate from documents titles"
+msgstr "Generovat z titulů dokumentů"
+
+msgid "Table of contents:"
+msgstr "Obsah:"
+
+msgid ""
+"Set if a table of contents should be added to the generated PDF document"
+msgstr "Nastavte, zda se má do generovaného PDF dokumentu přidat i obsah"
+
+msgid "Merge"
+msgstr "Sloučit"
+
+msgid "Merge multiple PDF documents or subsections of them."
+msgstr "Sloučit více dokumentů PDF nebo jejich podsekcí."
+
+msgid "Select or drag and drop the PDF whose pages will be repeated"
+msgstr "Vyberte nebo přetáhněte soubor PDF, jehož stránky se budou opakovat"
+
+msgid "Repeat these pages:"
+msgstr "Opakovat tyto stránky:"
+
+msgid "Pages to repeat (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr "Stránky k opakování (např.: 2 nebo 5-23 nebo 2,5-7,12-)"
+
+msgid ""
+"Comma separated page numbers or ranges to be repeated (ex: 2 or 5-23 or 2,5-"
+"7,12-)"
+msgstr ""
+"Čísla stránek nebo rozsahy oddělené čárkami, které se mají opakovat (např.: "
+"2 nebo 5-23 nebo 2,5-7,12-)"
+
+msgid "Leave it empty to use all the pages of the PDF file"
+msgstr "Chcete-li použít všechny stránky souboru PDF, nechte pole prázdné"
+
+msgid "Repeat every \"n\" pages:"
+msgstr "Opakovat každých \"n\" stránek:"
+
+msgid "Invalid page number"
+msgstr "Neplatné číslo stránky"
+
+msgid "Repeat the selected pages every \"n\" pages of the original document"
+msgstr "Opakovat vybrané stránky každých \"n\" stránek původního dokumentu"
+
+msgid "A .pdf extension is required for the repeating file"
+msgstr "Pro opakující se soubor je vyžadována přípona .pdf"
+
+msgid "The number of pages must be a positive number"
+msgstr "Počet stránek musí být kladné číslo"
+
+msgid "Select or drag and drop the PDF you want to insert pages to"
+msgstr "Vyberte nebo přetáhněte PDF, do kterého chcete vložit stránky"
+
+msgid "A .pdf destination file extension is required"
+msgstr "Je vyžadována přípona .pdf pro cílový soubor"
+
+msgid "Insert and Repeat settings"
+msgstr "Nastavení vložení a opakování"
+
+msgid "Insert pages multiple times"
+msgstr "Vložit stránky vícekrát"
+
+msgid ""
+"Insert the pages of a PDF document A into another document B, repeating it "
+"after a certain number of pages, resulting in B1 A B2 A B3 A etc."
+msgstr ""
+"Vloží stránky PDF dokumentu A do jiného dokumentu B, zopakujte jej po "
+"určitém počtu stránek, což má za následek B1 A B2 A B3 A atd."
+
+#, java-format
+msgid "Started in {0}"
+msgstr "Spuštěno v {0}"
+
+msgid "Closing PDFsam..."
+msgstr "Ukončuji PDFsam..."
+
+msgid "Drag and drop PDF files or directories containing PDF files"
+msgstr "Přetáhněte  PDF soubory nebo složky obsahující PDF soubory"
+
+msgid "No PDF found"
+msgstr "Nebyly nalezeny žádné PDF soubory"
+
+msgid "Tools"
+msgstr "Nástroje"
+
+msgid "News"
+msgstr "Novinky"
+
+msgid "What's new"
+msgstr "Co je nového"
+
+msgid "Exit"
+msgstr "Konec"
+
+msgid "Exit the application"
+msgstr "Ukončit aplikaci"
+
+msgid "Workspace"
+msgstr "Pracovní plocha"
+
+msgid "Manage your workspaces"
+msgstr "Spravovat své pracovní prostředí"
+
+msgid "Yes"
+msgstr "Ano"
+
+msgid "No"
+msgstr "Ne"
+
+msgid "Confirm clearing"
+msgstr "Potvrďte smazání"
+
+msgid "Do you confirm?"
+msgstr "Souhlasíte"
+
+msgid "Clear the tool settings"
+msgstr "Vymazat nastavení nástroje"
+
+msgid "Clear the selection table"
+msgstr "Vymazat tabulku výběru"
+
+msgid "Open with"
+msgstr "Otevřít v"
+
+msgid "Select the task to perform on the following files"
+msgstr "Vyberte úlohu, kterou chcete vykonat s následujícími soubory"
+
+msgid "Directory not empty"
+msgstr "Adresář není prázdný"
+
+msgid "The selected directory is not empty"
+msgstr "Zvolený adresář není prázdný"
+
+msgid "What would you like to do in case of files with the same name?"
+msgstr "Co chcete udělat v případě existence souborů se stejným názvem?"
+
+msgid "Overwrite"
+msgstr "Přepsat"
+
+msgid "Rename"
+msgstr "Přejmenovat"
+
+msgid "Skip"
+msgstr "Vynechat"
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "Don't overwrite existing file"
+msgstr "Nepřepisovat stávající soubor"
+
+msgid "Overwrite confirmation"
+msgstr "Potvrzení přepsání"
+
+msgid "A file with the given name already exists"
+msgstr "Soubor se zvoleným názvem již existuje"
+
+msgid "What would you like to do?"
+msgstr "Co si přejete udělat?"
+
+msgid "Non existing directory"
+msgstr "Neexistující adresář"
+
+msgid "The selected output directory does not exist"
+msgstr "Zvolená výstupní složka neexistuje"
+
+msgid "Do you want to create it?"
+msgstr "Přejete si ji vytvořit?"
+
+msgid "Subdirectories"
+msgstr "Podadresáře"
+
+msgid "Subdirectories have been found"
+msgstr "Byly nalezeny podadresáře"
+
+msgid "Do you want to add PDF files found in subdirectories?"
+msgstr "Chcete přidat PDF soubory z podadresářů?"
+
+msgid "Task failed"
+msgstr "Úloha selhala"
+
+msgid "PDFsam can try to overcome the failure"
+msgstr "PDFsam sa pokusí chybu překonat"
+
+msgid ""
+"It may result in PDF files with partial or missing data, proceed anyway?"
+msgstr ""
+"Výsledkem mohou být PDF soubory s částečnými nebo chybějícími daty. "
+"Pokračovat?"
+
+msgid "Removes all the log messages"
+msgstr "Odstranit všechny zprávy protokolu"
+
+msgid "_Clear"
+msgstr "_Vyčistit"
+
+msgid "_Save"
+msgstr "_Uložit"
+
+msgid "C_lose"
+msgstr "_Zavřít"
+
+msgid "Copy"
+msgstr "Kopírovat"
+
+msgid "Clear"
+msgstr "Vymazat"
+
+msgid "Select all"
+msgstr "Vybrat vše"
+
+msgid "Save log"
+msgstr "Uložit log"
+
+msgid "Select where to save the log file"
+msgstr "Vyberte, kam uložit souboru logu"
+
+msgid "Logs"
+msgstr "Záznamy"
+
+msgid "Application messages"
+msgstr "Zpávy aplikace"
+
+msgid "_Load"
+msgstr "_Načíst"
+
+msgid "Recen_ts"
+msgstr "_Nedávné"
+
+msgid "_Clear recents"
+msgstr "_Vyčistit nedávné"
+
+msgid "Select the workspace file to save"
+msgstr "Vyberte pracovní plochu k uložení"
+
+msgid "Select the workspace to load"
+msgstr "Vyberte pracovní plochu pro nahrání"
+
+msgid "Subscribe to the official news feed"
+msgstr "Odebírat oficiální novinky"
+
+msgid "Environment"
+msgstr "Prostředí"
+
+#, java-printf-format
+msgid "Vendor: %s"
+msgstr "Prodejce: %s"
+
+#, java-printf-format
+msgid "Java runtime path: %s"
+msgstr "Popis umístění běhového prostředí java: %s"
+
+#, java-printf-format
+msgid "JavaFX runtime version: %s"
+msgstr "Verze běhového prostředí JavaFX: %s"
+
+#, java-printf-format
+msgid "PDF engine (Sejda SDK) version: %s"
+msgstr "Verze modulu PDF (Sejda SDK): %s"
+
+#, java-format
+msgid "Max memory {0}"
+msgstr "Maximální paměť {0}"
+
+msgid "Copy to clipboard"
+msgstr "Zkopírovat do schránky."
+
+msgid "Support"
+msgstr "Podpora"
+
+msgid "Bug and feature requests"
+msgstr "Chyby a návrhy"
+
+msgid "Documentation"
+msgstr "Dokumentace"
+
+msgid "Contribute"
+msgstr "Přispět"
+
+msgid "Fork PDFsam on GitHub"
+msgstr "Vytvořit fork PDFsam na GitHubu"
+
+msgid "Translate"
+msgstr "Překlad"
+
+msgid "Donate"
+msgstr "Podpořit"
+
+msgid "Social"
+msgstr "Sociální sítě"
+
+#~ msgid "Follow us on Twitter"
+#~ msgstr "Sledujte nás na Twitteru"
+
+msgid "Like us on Facebook"
+msgstr "Dejte nám Like na Facebooku"
+
+msgid "About"
+msgstr "O programu"
+
+msgid "Home"
+msgstr "Domovská složka"
+
+msgid "Premium features"
+msgstr "Prémiové funkce"
+
+msgid "Log register rows:"
+msgstr "Délka logu:"
+
+msgid "Maximum number of rows displayed by the Log register"
+msgstr "Maximální počet řádků zobrazených v logu"
+
+msgid "Language:"
+msgstr "Jazyk:"
+
+msgid "Set your preferred language (restart needed)"
+msgstr "Vyberte jazyk (projeví se po restartu)"
+
+msgid "Startup tool:"
+msgstr "Nástroj po spuštění"
+
+msgid "Set the tool to open at application startup (restart needed)"
+msgstr ""
+"Nastavit nástroj, který se otevřel při spuštění aplikace (nutný restart)"
+
+msgid "Theme:"
+msgstr "Motiv:"
+
+msgid "Set the application theme"
+msgstr "Nastavit motiv aplikace"
+
+msgid "Font size:"
+msgstr "Velikost písma:"
+
+msgid "Set the application font size"
+msgstr "Nastavit velikost písma aplikace"
+
+msgid "Default PDF version:"
+msgstr "Výchozí verze PDF:"
+
+msgid "Default PDF version for generated PDF files"
+msgstr "Výchozí verze PDF pro generované soubory PDF"
+
+msgid "Manually selected"
+msgstr "Manuálně vybrané"
+
+msgid ""
+"Automatically set the destination directory to the selected PDF document "
+"directory"
+msgstr "Cílový adresář pro vybraný adresář PDF dokumentů zvolit automaticky"
+
+msgid "Default prefix:"
+msgstr "Výchozí předpona:"
+
+msgid ""
+"Default prefix for output file names, used in tools that generate multiple "
+"files"
+msgstr ""
+"Výchozí předpona pro názvy výstupních souborů, používaná v nástrojích, které "
+"generují více souborů"
+
+msgid "Some special keywords are replaced with runtime values."
+msgstr ""
+"Některá speciální klíčová slova jsou nahrazena hodnotami běhového prostředí."
+
+msgid "Right click to add these keywords."
+msgstr "Pro přidání těchto klíčových slov klikněte pravým tlačítkem myši."
+
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid "Appearance"
+msgstr "Vzhled"
+
+msgid "Behavior"
+msgstr "Chování"
+
+msgid "Output"
+msgstr "Výstup"
+
+msgid "Check for updates now"
+msgstr "Zkontrolovat aktualizace"
+
+msgid "Select a directory where documents will be saved and loaded by default"
+msgstr ""
+"Vyberte adresář, který bude sloužit k automatickému načítání a ukládání "
+"dokumentů"
+
+msgid "Select a directory"
+msgstr "Vyberte adresář"
+
+msgid ""
+"Select a previously saved workspace that will be automatically loaded at "
+"startup"
+msgstr ""
+"Vyberte dříve uloženou pracovní plochu, která se bude automaticky načítat po "
+"spuštění"
+
+msgid "Select a workspace"
+msgstr "Vyberte pracovní plochu"
+
+msgid "Default working directory:"
+msgstr "Výchozí pracovní adresář:"
+
+msgid "Load default workspace at startup:"
+msgstr "Nahrát výchozí pracovní plochu po spuštění:"
+
+msgid "System default"
+msgstr "Výchozí nastavení systému"
+
+msgid "Check for updates at startup"
+msgstr "Po startu zkontrolovat aktualizace"
+
+msgid ""
+"Set whether new version availability should be checked on startup (restart "
+"needed)"
+msgstr ""
+"Nastaví zjišťování novějších verzí po spuštění aplikace (je potřeba restart)"
+
+msgid "Check for news at startup"
+msgstr "Kontrola novinek při startu"
+
+msgid ""
+"Set whether the application should check for news availability on startup "
+"(restart needed)"
+msgstr "Nastavit kontrolu novinek po spuštění aplikace (vyžaduje restart)"
+
+msgid "Enabled PDF compression"
+msgstr "Komprese PDF zapnuta"
+
+msgid "Set whether \"Compress output file\" should be enabled by default"
+msgstr ""
+"Nastavte, zda má být ve výchozím nastavení povolena možnost „Komprimovat "
+"výstupní soubor“"
+
+msgid "Set whether \"Discard bookmarks\" should be enabled by default"
+msgstr ""
+"Nastavit, zda má být ve výchozím nastavení povoleno „Zahodit záložky“."
+
+msgid "Overwrite files"
+msgstr "Přepsat existující soubory"
+
+msgid "Set whether \"Overwrite if already exists\" should be enabled by default"
+msgstr ""
+"Nastavte, zda má být ve výchozím nastavení povoleno „Přepsat, pokud již "
+"existuje“"
+
+msgid "Play alert sounds"
+msgstr "Přehrávat upozornění"
+
+msgid "Turn on or off alert sounds"
+msgstr "Zapnout nebo vypnout zvuková upozornění"
+
+msgid "Store passwords when saving a workspace file"
+msgstr "Ukládat hesla při uložení souboru pracovní plochy"
+
+msgid ""
+"If an encrypted PDF document has been opened with a password, save the "
+"password in the workspace file"
+msgstr ""
+"Pokud byl šifrovaný PDF dokument otevřený s heslem, uložit heslo do souboru "
+"pracovní plochy."
+
+msgid "Show donation window"
+msgstr "Zobrazit přispěvatelé"
+
+msgid ""
+"Turn on or off the notification appearing once in a while and asking the "
+"user to support PDFsam with a donation"
+msgstr ""
+"Zapnout nebo vypnout upozornění, které se objevuje jednou za čas a vyzývá "
+"uživatele k podpoření PDFsam"
+
+msgid "Show premium features"
+msgstr "Zobrazit prémiové funkce"
+
+msgid ""
+"Set whether the application should fetch and show premium features "
+"description in the modules dashboard"
+msgstr ""
+"Nastavte, zda má aplikace na panelu modulů načítat a zobrazovat popis "
+"prémiových funkcí."
+
+msgid "Ask for a confirmation when clearing the selection table"
+msgstr "Vyžadovat potvrzení před smazáním tabulky výběru"
+
+msgid ""
+"Set whether the application should ask for a confirmation when clearing the "
+"selection table"
+msgstr ""
+"Nastavte, zda má aplikace vyžadovat potvrzení před smazáním tabulky výběru"
+
+msgid "Use the selected PDF document directory as output directory"
+msgstr "Použít adresář PDF dokumentů jako výstupní adresář"
+
+msgid "Save default workspace on exit"
+msgstr "Při ukončení uložit výchozí pracovní plochu"
+
+msgid "If a default workspace is set, save it on application exit"
+msgstr "Při ukončení uložit výchozí pracovní plochu (pokud je nastavena)"
+
+msgid "Maximum number of rows mast be a positive number"
+msgstr "Maximální počet řádků musí být celé kladné číslo"
+
+msgid "Summary"
+msgstr "Shrnutí"
+
+msgid "Keywords"
+msgstr "Klíčová slova"
+
+msgid "Document details"
+msgstr "Detaily dokumentu"
+
+msgid "Show errors"
+msgstr "Zobrazovat chyby"
+
+msgid "Input parameters are invalid"
+msgstr "Vstupní parametry jsou neplatné"
+
+msgid "Invalid parameters"
+msgstr "Neplatné parametry"
+
+msgid "Access denied"
+msgstr "Přístup odepřen"
+
+#, java-format
+msgid ""
+"Unable to access \"{0}\", please make sure you have write permissions or "
+"open the application messages for details."
+msgstr ""
+"Nedaří se přistupovat k „{0}“ – ověřte, že máte oprávnění zapisovat, "
+"případně hledejte podrobnosti ve zprávách z aplikace."
+
+#, java-format
+msgid "You performed {0} tasks with PDFsam, did it help?"
+msgstr "Povedli jste {0} úloh pomocí PDFsam, pomohlo vám to?"
+
+msgid "Give something back"
+msgstr "Nabídněte něco zpět"
+
+msgid "PDFsam worked hard!"
+msgstr "PDFsam pracuje tvrdě!"
+
+msgid "Spread the word!"
+msgstr "Zmiňte se o něm!"
+
+#, java-format
+msgid "PDFsam {0} is available for download"
+msgstr "PDFsam {0} je k dispozici ke stažení"
+
+msgid "Download"
+msgstr "Stáhnout"
+
+msgid "New version available"
+msgstr "Nová verze je k dispozici"
+
+msgid "You are running the latest version of PDFsam Basic"
+msgstr "Používáte nejnovější verzi PDFsam Basic."
+
+msgid "No update"
+msgstr "Žádná aktualizace"
+
+msgid "Open"
+msgstr "Otevřít"
+
+#, java-format
+msgid "File \"{0}\" does not exist or is invalid"
+msgstr "Soubor \"{0}\" neexistuje, nebo je neplatný."
+
+msgid "Valid user password provided."
+msgstr "Bylo zadáno platné uživatelské heslo."
+
+msgid "This document is encrypted, click to provide a password."
+msgstr "Dokument je šifrován, klikněte pro zadání hesla."
+
+msgid "An error has occurred, click for more details."
+msgstr "Objevila se chybička, klikněte pro více detailů."
+
+#, java-format
+msgid "Version {0}"
+msgstr "Verze {0}"
+
+msgid "Split tools"
+msgstr "Nástroje pro rozdělení"
+
+msgid "Merge tools"
+msgstr "Nástroje pro slučování"
+
+msgid "Convert tools"
+msgstr "Nástroje pro převod"
+
+msgid "Edit tools"
+msgstr "Nástroje pro úpravy"
+
+msgid "Other tools"
+msgstr "Ostatní nástroje"
+
+msgid "Checking for updates"
+msgstr "Kontrola aktualizací"
+
+msgid "Unable to find the latest available version."
+msgstr "Nepodařilo se najít poslední dostupnou verzi."
+
+#, java-format
+msgid "Unable to find any valid PDF file in the list: {0}"
+msgstr "V seznamu: {0} nebylo možné najít validní soubor PDF"
+
+#, java-format
+msgid "Unable to load PDF list file from {0}"
+msgstr "Nebylo možné načíst seznam PDF souborů z {0}"
+
+msgid "Loading pdf documents"
+msgstr "Načítám PDF dokumenty"
+
+msgid "Documents loaded"
+msgstr "Dokumenty byly načteny"
+
+msgid "Unable to retrieve premium features description"
+msgstr "Nepodařilo se získat popis prémiových funkcí"
+
+msgid "Fetching premium modules"
+msgstr "Načítání prémiových modulů"
+
+msgid "Unable to retrieve premium modules"
+msgstr "Prémiové module se nepodařilo načíst"
+
+msgid "Unable to retrieve latest news"
+msgstr "Nepodařilo se získat poslední novinky"
+
+msgid "Fetching latest news"
+msgstr "Stahuji poslední novinky"
+
+msgid "Unable to retrieve the latest news"
+msgstr "Nepodařilo se získat poslední novinky"
+
+#, java-format
+msgid "Saving workspace data to {0}"
+msgstr "Ukládám pracovní plochu do {0}"
+
+msgid "Workspace saved"
+msgstr "Pracovní plocha byla uložena"
+
+msgid "Requesting modules state"
+msgstr "Zjišťuji stav modulů"
+
+#, java-format
+msgid "Unable to save workspace to {0}"
+msgstr "Pracovní plochu nebylo možné uložit do {0}"
+
+#, java-format
+msgid "Loading workspace from {0}"
+msgstr "Načítám pracovní plochu z {0}"
+
+#, java-format
+msgid "Workspace loaded: {0}"
+msgstr "Načteno pracovní prostředí: {0}"
+
+#, java-format
+msgid "Unable to load workspace from {0}"
+msgstr "Nedaří se načíst pracovní plochu z {0}"
+
+#, java-format
+msgid "The following file already existed and was skipped: {0}"
+msgstr "Následující soubor již existuje a byl přeskočen: {0}"
+
+msgid "Light with blue"
+msgstr "Světlý s modrou"
+
+msgid "Dark with purple"
+msgstr "Tmavý s fialovou"
+
+msgid "Dark with teal"
+msgstr "Tmavý s modrozelenou"
+
+msgid "Light with maroon"
+msgstr "Světlý s kaštanovou"
+
+msgid "Close"
+msgstr "Zavřít"
+
+msgid "The selected PDF document is invalid"
+msgstr "Vybrané PDF není v pořádku."
+
+msgid "Select the PDF file"
+msgstr "Vyberte PDF soubor"
+
+msgid "_Select PDF"
+msgstr "Vyberte PDF"
+
+msgid "C_lear all settings"
+msgstr "_Vymazat všechny nastavení"
+
+#, java-format
+msgid "Pages: {0}, PDF Version: {1}"
+msgstr "Stránek: {0}, verze PDF {1}"
+
+msgid "Loading..."
+msgstr "Načítání..."
+
+msgid "Document properties"
+msgstr "Vlastnosti dokumentu"
+
+msgid "Remove"
+msgstr "Odstranit"
+
+msgid "Set destination"
+msgstr "Nastavit cíl"
+
+msgid "Open Folder"
+msgstr "Otevřít adresář"
+
+msgid "Enter the user password"
+msgstr "Zadejte uživatelské heslo"
+
+msgid "Unlock"
+msgstr "Odemknout"
+
+msgid "Drag and drop PDF files here"
+msgstr "Přetáhněte PDF zde"
+
+msgid "Set as range for all"
+msgstr "Nastavit jako rozsah pro vše"
+
+msgid "Move to Top"
+msgstr "Přesunout zcela nahoru"
+
+msgid "Move Up"
+msgstr "Posunout nahoru"
+
+msgid "Move Down"
+msgstr "Posunout dolů"
+
+msgid "Move to Bottom"
+msgstr "Přesunout zcela dolů"
+
+msgid "Duplicate"
+msgstr "Duplikovat"
+
+msgid "Duplicate at Top"
+msgstr "Duplikát nahoře"
+
+msgid "Duplicate Up"
+msgstr "Duplikát nad"
+
+msgid "Duplicate Down"
+msgstr "Duplikát pod"
+
+msgid "Duplicate at Bottom"
+msgstr "Duplikát dole"
+
+msgid "Selected pages"
+msgstr "Vybrané stránky"
+
+msgid "Total number of selected pages"
+msgstr "Celkový počet vybraných stránek"
+
+msgid "Size"
+msgstr "Velikost"
+
+msgid "Modified"
+msgstr "Změněno"
+
+#, java-format
+msgid "Total pages: {0}"
+msgstr "Celkový počet stránek: {0}"
+
+msgid "Name"
+msgstr "Název"
+
+msgid "Add documents to the table"
+msgstr "Přidat dokumenty do tabulky"
+
+msgid "_Add"
+msgstr "Přid_at"
+
+msgid "PDF list from _text/csv file"
+msgstr "Seznam PDF souborů z textového/csv souboru"
+
+msgid "Select pdf documents to load"
+msgstr "Vyberte PDF k načtení"
+
+msgid "Select a text or CSV file to load"
+msgstr "Vyberte textový/csv soubor se seznamem souborů pro načtení"
+
+msgid "Removes selected documents"
+msgstr "Odebrat vybrané dokumenty"
+
+msgid "_Remove"
+msgstr "Odeb_rat"
+
+msgid "Removes every document"
+msgstr "Odebere všechny dokumenty"
+
+msgid "Moves up selected documents"
+msgstr "Posune zvolené dokumenty nahoru"
+
+msgid "Move _Up"
+msgstr "Posunout na_horu"
+
+msgid "Moves down selected documents"
+msgstr "Posune zvolené dokumenty dolů"
+
+msgid "Move _Down"
+msgstr "Posunout _dolů"
+
+msgid "Pace"
+msgstr "Krok"
+
+msgid ""
+"Double click to set the number of pages after which the task will switch to "
+"the next file"
+msgstr ""
+"Poklepáním nastavte  počet stránek, po kterých úloha přejde na další soubor."
+
+msgid "Reverse"
+msgstr "Obrátit"
+
+msgid "Pages"
+msgstr "Počet stran"
+
+msgid "Number of total pages of the document"
+msgstr "Celkový počet stran dokumentu"
+
+msgid "Double click to set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+"Poklepáním nastavte vybrané stránky (např. 2 nebo 5-23 nebo 2,5-7,12-)"
+
+msgid "Page ranges"
+msgstr "Rozsahy stran"
+
+msgid "Select a file"
+msgstr "Vyberte soubor"
+
+msgid "The selected file must exist. "
+msgstr "Vybraný soubor musí existovat. "
+
+#, java-format
+msgid "Allowed extensions are {0}"
+msgstr "Povolené přípony jsou {0}"
+
+msgid "Compress output file/files"
+msgstr "Komprimovat výstupní soubor(y)"
+
+msgid ""
+"Tick the box if you don't want to retain any bookmark from the original PDF "
+"document"
+msgstr ""
+"Zaškrtněte políčko pokud nechcete zachovat žádnou záložku z původního "
+"dokumentu"
+
+msgid "Output PDF version:"
+msgstr "Verze výstupního PDF:"
+
+msgid "Show advanced settings"
+msgstr "Zobrazit pokročilá nastavení"
+
+msgid "Hide advanced settings"
+msgstr "Skrýt pokročilá nastavení"
+
+msgid "Overwrite if already exists"
+msgstr "Přepsat soubor pokud již existuje"
+
+msgid ""
+"Tick the box if you want to overwrite the output files if they already exist."
+""
+msgstr ""
+"Zatrhněte políčko, pokud si přejete přepsat existující výstupní soubory"
+
+msgid "The selected PDF file is invalid"
+msgstr "Vybráné PDF není podporováno"
+
+msgid "Same as the input document"
+msgstr "Stejná jako u vstupního dokumentu"
+
+msgid "An existing output directory is required"
+msgstr "Existující výstupní adresář je vyžadován."
+
+msgid "The output directory is required"
+msgstr "Výstupní adresář je vyžadován"
+
+msgid "Select an existing directory"
+msgstr "Vyberte existující adresář"
+
+msgid "Select"
+msgstr "Vybrat"
+
+msgid "Browse"
+msgstr "Procházet"
+
+#, java-format
+msgid "PDF version required: {0}"
+msgstr "Verze PDF je vyžadována: {0}"
+
+msgid "Prefix for the generated files names"
+msgstr "Předpona vytvořených souborů."
+
+msgid "Add prefix"
+msgstr "Přidat předponu"
+
+msgid "Generated PDF documents name prefix:"
+msgstr "Předpona jména vytvořených PDF:"
+
+msgid "Prefix for the output files name."
+msgstr "Předpona výstupních souborů."
+
+msgid "DEFAULT_PREFIX"
+msgstr "VÝCHOZÍ_PŘEDVOLBA"
+
+msgid "Run"
+msgstr "Spustit"
+
+msgid "Run the task"
+msgstr "Spustit úlohu"
+
+msgid "Requested"
+msgstr "Vyžádané"
+
+msgid "Completed"
+msgstr "Hotovo"
+
+msgid "Failed"
+msgstr "Nezdařilo se"
+
+msgid "Running"
+msgstr "Běží"
+
+#, java-format
+msgid "Running {0}%"
+msgstr "Zpracování {0}%"
+
+#, java-format
+msgid "Error saving content to file {0}"
+msgstr "Chyba při ukládání obsahu do souboru {0}"
+
+#, java-format
+msgid "File {0} saved"
+msgstr "Soubor {0} uložen"
+
+msgid "Error saving content to clipboard"
+msgstr "Chyba při ukládání obsahu do schránky"
+
+#, java-format
+msgid ""
+"Ambiguous page range definition: {0}. Use following formats: [n] or [n1-n2] "
+"or [-n] or [n-]"
+msgstr ""
+"Dvojznačná definice rozsahu stran: {0}. Použijte formáty [n], [n1-n2], [-n] "
+"nebo [n-]"
+
+#, java-format
+msgid "Invalid range: {0}."
+msgstr "Neplatný rozsah: {0}."
+
+#, java-format
+msgid "Invalid number: {0}."
+msgstr "Neplatné číslo: {0}."
+
+#~ msgid "Split even pages"
+#~ msgstr "Rozdělit za sudými stránkami"
+
+#~ msgid "Split odd pages"
+#~ msgstr "Rozdělit za lichými stránkami"
+
+#~ msgid "Output document pdf version:"
+#~ msgstr "Verze výstupního pdf dokumentu:"
+
+#~ msgid "Never"
+#~ msgstr "Nikdy"
+
+#~ msgid "Unable to get latest available version"
+#~ msgstr "Nelze stáhnout aktuální verzi"
+
+#~ msgid "Destination folder"
+#~ msgstr "Cílová složka"
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "Chcete jej přepsat?"
+
+#~ msgid "Ask for confirmation when overwrite checkbox is selected"
+#~ msgstr "Potvrdit, když je přepsáno zaškrtnuté políčko"
+
+#~ msgid ""
+#~ "Show a dialog box asking the user for confirmation when the \"overwrite\" is "
+#~ "selected"
+#~ msgstr "Zobrazit potvrzovací okno, když položka \"přepsat\" je vybrána"
+
+msgid "Follow us on Bluesky"
+msgstr "Sledujte nás na Bluesky"
+
+msgid "Font:"
+msgstr "Písmo:"
+
+msgid "Sets the application font"
+msgstr "Nastaví písmo aplikace"
+
+msgid "Default"
+msgstr "Výchozí"
+
+msgid "Light"
+msgstr "Světlý"
+
+msgid "Dark"
+msgstr "Tmavý"
+
+msgid "Unlock selected"
+msgstr "Odemknout vybrané"
+
+msgid "Workspace has changed"
+msgstr "Pracovní prostor se změnil"
+
+msgid "Do you want to save it?"
+msgstr "Chcete to uložit?"
+
+msgid "Set as pace for all"
+msgstr "Nastavit jako vzor pro všechny"

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tool PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.3//EN" "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+
+<!--
+    This configuration file was written by the eclipse-cs plugin configuration editor
+-->
+<!--
+    Checkstyle-Configuration: pdfsam
+    Description: none
+-->
+<tool name="Checker">
+  <property name="severity" value="warning"/>
+  <tool name="TreeWalker">
+    <tool name="FileContentsHolder"/>
+    <tool name="AvoidStarImport"/>
+    <tool name="BooleanExpressionComplexity">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="ClassDataAbstractionCoupling">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="ClassFanOutComplexity">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="ConstantName">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="CyclomaticComplexity">
+      <property name="severity" value="error"/>
+      <property name="max" value="7"/>
+    </tool>
+    <tool name="DefaultComesLast">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="EmptyStatement"/>
+    <tool name="EqualsHashCode">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="FinalClass">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="HiddenField">
+      <property name="severity" value="error"/>
+      <property name="tokens" value="VARIABLE_DEF"/>
+      <property name="ignoreConstructorParameter" value="true"/>
+      <property name="ignoreSetter" value="true"/>
+      <property name="ignoreAbstractMethods" value="true"/>
+    </tool>
+    <tool name="HideUtilityClassConstructor">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="IllegalThrows">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="InnerAssignment">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="JavadocMethod">
+      <property name="severity" value="error"/>
+      <property name="excludeScope" value="private"/>
+    </tool>
+    <tool name="JavadocType">
+      <property name="severity" value="error"/>
+      <property name="authorFormat" value=".+"/>
+    </tool>
+    <tool name="JavaNCSS"/>
+    <tool name="AnonInnerLength">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="LocalFinalVariableName">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="LocalVariableName">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="MagicNumber"/>
+    <tool name="MemberName">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="MethodName">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="ModifierOrder"/>
+    <tool name="PackageName">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="ParameterAssignment">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="ParameterName">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="RedundantModifier"/>
+    <tool name="RedundantThrows"/>
+    <tool name="SimplifyBooleanExpression"/>
+    <tool name="SimplifyBooleanReturn"/>
+    <tool name="StaticVariableName">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="StringLiteralEquality">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="UnusedImports">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="VisibilityModifier">
+      <property name="severity" value="error"/>
+    </tool>
+    <tool name="EmptyBlock"/>
+    <tool name="RightCurly"/>
+  </tool>
+  <tool name="FileTabCharacter">
+    <property name="severity" value="error"/>
+    <property name="fileExtensions" value="java"/>
+  </tool>
+  <tool name="StrictDuplicateCode">
+    <property name="severity" value="ignore"/>
+    <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
+  </tool>
+  <tool name="SuppressionCommentFilter"/>
+  <tool name="FileLength"/>
+  <tool name="SuppressionFilter">
+    <property name="file" value="/media/torakiki/LACIE/pdfsam-repo/pdfsam/pdfsam-parent/development/eclipse/checkstyle plugin/suppression.xml"/>
+  </tool>
+</tool>

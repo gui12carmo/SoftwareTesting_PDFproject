@@ -1,0 +1,1368 @@
+# Lithuanian translation for pdfsam
+# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
+# This file is distributed under the same license as the pdfsam package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: pdfsam\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2023-01-27 11:09+0100\n"
+"PO-Revision-Date: 2025-10-23 12:12+0200\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
+"Language-Team: Lithuanian <lt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2023-01-31 10:16+0000\n"
+"X-Generator: Autopo v1.0.6-SNAPSHOT\n"
+"Language: lt\n"
+
+msgid "No PDF document has been selected"
+msgstr "Nepasirinktas joks PDF dokumentas"
+
+msgid "Extract"
+msgstr "Išskirti"
+
+msgid "Extract pages from PDF documents."
+msgstr "Išskleisti puslapius iš PDF dokumentų."
+
+msgid "File names settings"
+msgstr "Failų pavadinimų nustatymai"
+
+msgid "Extract settings"
+msgstr "Išskleidimo nustatymai"
+
+msgid "Output settings"
+msgstr "Išvesties nustatymai"
+
+msgid "A separate file for each set of pages"
+msgstr "Atskiras failas kiekvienam puslapių rinkiniui"
+
+msgid "Each continuous series of pages will generate a separate PDF file"
+msgstr "Kiekviena nepertraukiama puslapių seka sugeneruos atskirą PDF failą"
+
+#~ msgid "Pages to extract (ex: 2 or 5-23 or 2,5-7,12-)"
+#~ msgstr "Puslapiai, kuriuos išskleisti (pvz.: 2 arba 5-23 arba 2,5-7,12-)"
+
+msgid "Invalid page ranges"
+msgstr "Neteisingi puslapių diapazonai"
+
+msgid "Extract pages:"
+msgstr "Išskirti puslapius:"
+
+#~ msgid ""
+#~ "Comma separated page numbers or ranges to extract (ex: 2 or 5-23 or 2,5-7,12-"
+#~ ")"
+#~ msgstr ""
+
+msgid "Split by bookmarks"
+msgstr "Skaidyti pagal žymes"
+
+msgid ""
+"Split a PDF document at bookmarked pages by specifying a bookmark level."
+msgstr "Padalinti PDF dokumentą pažymėtose puslapiuose nurodant žymės lygį."
+
+msgid "Regular expression the bookmark has to match"
+msgstr "Reguliarioji išraiška, kurią žymelė turi atitikti"
+
+msgid "Split at this bookmark level:"
+msgstr "Padalinti ties šiuo žymės lygiu:"
+
+msgid "Matching regular expression:"
+msgstr "Atitinkanti reguliarioji išraiška:"
+
+msgid "A regular expression the bookmark text has to match"
+msgstr "Reguliarusis reiškinys, kuriam turi atitikti žymelės tekstas"
+
+msgid ""
+"Example: use .*Chapter.* to match bookmarks containing the word \"Chapter\""
+msgstr ""
+"Pavyzdys: naudokite .*Skyrius.* kad atitiktų žymes, kuriose yra žodis "
+"„Skyrius\""
+
+msgid "Select or drag and drop the PDF you want to split"
+msgstr "Pasirinkite arba nuvilkite PDF, kurį norite padalinti"
+
+msgid "Split settings"
+msgstr "Padalijimo nustatymai"
+
+msgid "Invalid bookmarks level"
+msgstr "Netinkamas žymių lygis"
+
+msgid "Split after"
+msgstr "Padalinti po"
+
+msgid "No page selected"
+msgstr "Nepasirinktas puslapis"
+
+msgid "Split"
+msgstr "Skaidyti"
+
+msgid "Split a PDF document at the given page numbers."
+msgstr "Padalinti PDF dokumentą nurodytais puslapių numeriais."
+
+msgid "Every page"
+msgstr "Kiekvienas puslapis"
+
+msgid "Even pages"
+msgstr "Lyginiai puslapiai"
+
+msgid "Odd pages"
+msgstr "Nelyginiai puslapiai"
+
+msgid "Split the document after the given page numbers"
+msgstr "Padalinti dokumentą po nurodytų puslapių numerių"
+
+msgid "Splits the PDF every \"n\" pages creating documents of \"n\" pages each"
+msgstr ""
+"Padalija PDF kas „n\" puslapių sukurdama dokumentus po „n\" puslapių "
+"kiekviename"
+
+msgid "Split after the following page numbers"
+msgstr "Padalinti po šių puslapių numerių"
+
+msgid "Page numbers to split at (n1,n2,n3..)"
+msgstr "Puslapių numeriai, ties kuriais skaidyti (n1,n2,n3..)"
+
+msgid "Invalid page numbers"
+msgstr "Netinkami puslapių numeriai"
+
+msgid "Only valid positive page numbers are allowed"
+msgstr "Leidžiami tik teigiami puslapių numeriai"
+
+msgid "Split by every \"n\" pages"
+msgstr "Skaidyti kas \"n\" puslapių"
+
+msgid "Number of pages"
+msgstr "Puslapių skaičius"
+
+msgid "Invalid number of pages"
+msgstr "Netinkamas puslapių skaičius"
+
+msgid "Megabytes"
+msgstr "Megabaitai"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "Kilobytes"
+msgstr "Kilobaitai"
+
+msgid "KB"
+msgstr "KB"
+
+msgid "Split by size"
+msgstr "Skaidyti pagal dydį"
+
+msgid "Split a PDF document in files of the given size (roughly)."
+msgstr "Padalinti PDF dokumentą į nurodyto dydžio failus (apytiksliai)."
+
+msgid "Set the size to split at"
+msgstr "Nustatykite dydį, ties kuriuo skaidyti"
+
+msgid "Size must be a number"
+msgstr "Dydis turi būti skaičius"
+
+msgid "Split at this size:"
+msgstr "Padalinti šiuo dydžiu:"
+
+msgid "Invalid split size"
+msgstr "Neteisingas skaidymo dydis"
+
+msgid "Destination file"
+msgstr "Paskirties failas"
+
+msgid "Alternate Mix"
+msgstr "Alternatyvus derinys"
+
+msgid ""
+"Merge two or more PDF documents taking pages alternately in natural or "
+"reverse order."
+msgstr ""
+"Sujungti du ar daugiau PDF dokumentų paimant puslapius pakaitomis natūralia "
+"arba atvirkštine tvarka."
+
+msgid "Double click to set pages you want to mix (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+"Dukart spustelėkite, kad nustatytumėte puslapius, kuriuos norite maišyti "
+"(pvz.: 2 arba 5-23 arba 2,5-7,12-)"
+
+msgid "Select a positive integer number as pace"
+msgstr "Pasirinkite teigiamą sveikąjį skaičių kaip žingsnį"
+
+msgid "All pages"
+msgstr "Visi puslapiai"
+
+msgid "90 degrees clockwise"
+msgstr "90 laipsnių pagal laikrodžio rodyklę"
+
+msgid "180 degrees clockwise"
+msgstr "180 laipsnių pagal laikrodžio rodyklę"
+
+msgid "90 degrees counterclockwise"
+msgstr "90 laipsnių prieš laikrodžio rodyklę"
+
+msgid "Rotate "
+msgstr "Pasukti "
+
+msgid "Rotate settings"
+msgstr "Pasukimo nustatymai"
+
+msgid "Rotate"
+msgstr "Pasukti"
+
+msgid "Rotate the pages of multiple PDF documents."
+msgstr "Pasukti kelių PDF dokumentų puslapius."
+
+msgid ""
+"Double click to set pages you want to rotate (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+"Dukart spustelėkite, kad nustatytumėte puslapius, kuriuos norite pasukti "
+"(pvz.: 2 arba 5-23 arba 2,5-7,12-)"
+
+msgid "Merge settings"
+msgstr "Sujungimo nustatymai"
+
+msgid ""
+"Double click to set pages you want to merge (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+"Dukart spustelėkite kad pažymėtumėte puslapius, kuriuos norite sujungti (pvz."
+", 2 arba 5-23 arba 2,5-7,12-"
+
+msgid "Add a blank page if page number is odd"
+msgstr "Pridėti tuščią puslapį, jei puslapio numeris nelyginis"
+
+msgid ""
+"Adds a blank page after each merged document if the document has an odd "
+"number of pages"
+msgstr ""
+"Prideda tuščią puslapį po kiekvieno sujungto dokumento, jei dokumentas turi "
+"nelyginį puslapių skaičių"
+
+msgid "Add a footer"
+msgstr "Pridėti poraštę"
+
+msgid "Adds a page footer with the name of the file the page belonged to."
+msgstr ""
+"Prideda puslapio poraštę su failo, kuriam priklausė puslapis, pavadinimu."
+
+msgid "None"
+msgstr "Nėra"
+
+msgid "Same width as first page"
+msgstr "Toks pat plotis kaip pirmame puslapyje"
+
+msgid "Same width as first page (based on page orientation)"
+msgstr "Toks pat plotis kaip pirmame puslapyje (pagal puslapio orientaciją)"
+
+msgid "Pages normalization:"
+msgstr "Puslapių normalizavimas:"
+
+msgid ""
+"Set whether pages should be resized to all have the same width as the first "
+"one"
+msgstr ""
+"Nustatykite, ar puslapiai turi būti keičiami, kad visų plotis būtų toks pat "
+"kaip pirmojo"
+
+msgid "Merge fields"
+msgstr "Sujungti laukus"
+
+msgid "Merge renaming existing fields"
+msgstr "Sujungti pervardijant esamus laukus"
+
+msgid "Flatten"
+msgstr "Sulyginti"
+
+msgid "Discard forms"
+msgstr "Atmesti formas"
+
+msgid "Interactive forms (AcroForms):"
+msgstr "Interaktyvios formos (AcroForms):"
+
+msgid "What to do in case one or more input documents contain Acro Forms"
+msgstr "Ką daryti, jei vienas ar daugiau įvesties dokumentų turi Acro formas"
+
+msgid "Retain bookmarks"
+msgstr "Išlaikyti žymes"
+
+msgid "Discard bookmarks"
+msgstr "Atmesti žymes"
+
+msgid "Create one entry for each merged document"
+msgstr "Sukurti po įrašą kiekvienam sujungtam dokumentui"
+
+msgid "Retain bookmarks as one entry for each merged document"
+msgstr "Išlaikyti žymes kaip vieną įrašą kiekvienam sujungtam dokumentui"
+
+msgid "Bookmarks handling:"
+msgstr "Žymių tvarkymas:"
+
+msgid "What to do in case one or more input documents contain bookmarks"
+msgstr "Ką daryti, jei vienas ar keli įvesties dokumentai turi žymeles"
+
+msgid "Don't generate"
+msgstr "Negeneruoti"
+
+msgid "Generate from file names"
+msgstr "Generuoti iš failų pavadinimų"
+
+msgid "Generate from documents titles"
+msgstr "Generuoti iš dokumentų pavadinimų"
+
+msgid "Table of contents:"
+msgstr "Turinys:"
+
+msgid ""
+"Set if a table of contents should be added to the generated PDF document"
+msgstr ""
+"Nustatyti, ar į sugeneruotą PDF dokumentą turėtų būti pridėtas turinys"
+
+msgid "Merge"
+msgstr "Sujungti"
+
+#~ msgid "Merge together multiple PDF documents or subsections of them."
+#~ msgstr ""
+
+msgid "Select or drag and drop the PDF whose pages will be repeated"
+msgstr "Pasirinkite arba nuvilkite PDF, kurio puslapiai bus kartojami"
+
+msgid "Repeat these pages:"
+msgstr "Kartoti šiuos puslapius:"
+
+msgid "Pages to repeat (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr "Puslapiai, kuriuos kartoti (pvz.: 2 arba 5-23 arba 2,5-7,12-)"
+
+msgid ""
+"Comma separated page numbers or ranges to be repeated (ex: 2 or 5-23 or 2,5-"
+"7,12-)"
+msgstr ""
+"Kableliais atskirti puslapių numeriai arba diapazonai, kurie bus kartojami "
+"(pvz.: 2 arba 5-23 arba 2,5-7,12-)"
+
+msgid "Leave it empty to use all the pages of the PDF file"
+msgstr "Palikite tuščią, kad būtų naudojami visi PDF failo puslapiai"
+
+msgid "Repeat every \"n\" pages:"
+msgstr "Kartoti kas „n\" puslapių:"
+
+msgid "Invalid page number"
+msgstr "Netinkamas puslapio numeris"
+
+msgid "Repeat the selected pages every \"n\" pages of the original document"
+msgstr "Kartoti pasirinktus puslapius kas \"n\" originalaus dokumento puslapių"
+
+msgid "The selected PDF file is invalid"
+msgstr "Pasirinktas PDF failas yra netinkamas"
+
+msgid "The number of pages must be a positive number"
+msgstr "Puslapių skaičius turi būti teigiamas skaičius"
+
+msgid "Select or drag and drop the PDF you want to insert pages to"
+msgstr "Pasirinkite arba nuvilkite PDF, į kurį norite įterpti puslapius"
+
+msgid "Insert and Repeat settings"
+msgstr "Įterpimo ir kartojimo nustatymai"
+
+msgid "Insert pages multiple times"
+msgstr "Įterpti puslapius kelis kartus"
+
+msgid ""
+"Insert the pages of a PDF document A into another document B, repeating it "
+"after a certain number of pages, resulting in B1 A B2 A B3 A etc."
+msgstr ""
+"Įterpti PDF dokumento A puslapius į kitą dokumentą B, kartojant tai po tam "
+"tikro puslapių skaičiaus, gaunant B1 A B2 A B3 A ir t.t."
+
+#, java-format
+msgid "Started in {0}"
+msgstr "Pradėta {0}"
+
+msgid "Closing PDFsam..."
+msgstr "Užveriama PDFsam..."
+
+msgid "Drag and drop PDF files or directories containing PDF files"
+msgstr "Nuvilkite PDF failus arba aplankus, kuriuose yra PDF failų"
+
+msgid "No PDF found"
+msgstr "PDF nerasta"
+
+msgid "Tools"
+msgstr "Įrankiai"
+
+msgid "News"
+msgstr "Naujienos"
+
+msgid "What's new"
+msgstr "Kas naujo"
+
+msgid "Exit"
+msgstr "Išeiti"
+
+msgid "Exit the application"
+msgstr "Išeiti iš programos"
+
+msgid "Workspace"
+msgstr "Darbo sritis"
+
+msgid "Manage your workspaces"
+msgstr "Tvarkykite savo darbo erdves"
+
+msgid "Yes"
+msgstr "Taip"
+
+msgid "No"
+msgstr "Ne"
+
+msgid "Confirm clearing"
+msgstr "Patvirtinti išvalymą"
+
+msgid "Do you confirm?"
+msgstr "Ar patvirtinate?"
+
+msgid "Clear the tool settings"
+msgstr "Išvalyti įrankio nustatymus"
+
+msgid "Clear the selection table"
+msgstr "Išvalyti pasirinkimo lentelę"
+
+msgid "Open with"
+msgstr "Atidaryti su"
+
+msgid "Select the task to perform on the following files"
+msgstr "Pasirinkite užduotį atlikti su šiais failais"
+
+msgid "Directory not empty"
+msgstr "Aplankas nėra tuščias"
+
+msgid "The selected directory is not empty"
+msgstr "Pasirinktas katalogas nėra tuščias"
+
+msgid "What would you like to do in case of files with the same name?"
+msgstr "Ką norėtumėte daryti failų su vienodu pavadinimu atveju?"
+
+msgid "Overwrite"
+msgstr "Perrašyti"
+
+msgid "Rename"
+msgstr "Pervadinti"
+
+msgid "Skip"
+msgstr "Praleisti"
+
+msgid "Cancel"
+msgstr "Atšaukti"
+
+msgid "Don't overwrite existing file"
+msgstr "Neperrašyti esamo failo"
+
+msgid "Overwrite confirmation"
+msgstr "Perrašymo patvirtinimas"
+
+msgid "A file with the given name already exists"
+msgstr "Failas nurodytu pavadinimu jau egzistuoja"
+
+msgid "What would you like to do?"
+msgstr "Ką norėtumėte daryti?"
+
+msgid "Non existing directory"
+msgstr "Neegzistuojantis katalogas"
+
+msgid "The selected output directory does not exist"
+msgstr "Pasirinktas išvesties katalogas neegzistuoja"
+
+msgid "Do you want to create it?"
+msgstr "Ar norite sukurti tai?"
+
+msgid "Subdirectories"
+msgstr "Poaplankiai"
+
+msgid "Subdirectories have been found"
+msgstr "Poaplankiai rasti"
+
+msgid "Do you want to add PDF files found in subdirectories?"
+msgstr "Ar norite pridėti PDF failus, rastus poaplankiuose?"
+
+msgid "Task failed"
+msgstr "Užduotis nepavyko"
+
+msgid "PDFsam can try to overcome the failure"
+msgstr "PDFsam gali bandyti įveikti gedimą"
+
+msgid ""
+"It may result in PDF files with partial or missing data, proceed anyway?"
+msgstr ""
+"Tai gali lemti PDF failus su daliniais arba trūkstamais duomenimis, vis tiek "
+"tęsti?"
+
+msgid "Removes all the log messages"
+msgstr "Pašalina visus žurnalo pranešimus"
+
+msgid "_Clear"
+msgstr "_Išvalyti"
+
+msgid "_Save"
+msgstr "_Išsaugoti"
+
+msgid "C_lose"
+msgstr "U_ždaryti"
+
+msgid "Copy"
+msgstr "Kopijuoti"
+
+msgid "Clear"
+msgstr "Išvalyti"
+
+msgid "Select all"
+msgstr "Pažymėti viską"
+
+msgid "Save log"
+msgstr "Įrašyti žurnalą"
+
+msgid "Select where to save the log file"
+msgstr "Pasirinkite kur įrašyti žurnalo failą"
+
+msgid "Logs"
+msgstr "Žurnalai"
+
+msgid "Application messages"
+msgstr "Programos pranešimai"
+
+msgid "_Load"
+msgstr "_Įkelti"
+
+msgid "Recen_ts"
+msgstr "_Naujausi"
+
+msgid "_Clear recents"
+msgstr "_Išvalyti naujausius"
+
+msgid "Select the workspace file to save"
+msgstr "Pasirinkite darbo srities failą išsaugoti"
+
+msgid "Select the workspace to load"
+msgstr "Pasirinkite darbo sritį įkelti"
+
+msgid "Subscribe to the official news feed"
+msgstr "Prenumeruoti oficialių naujienų kanalą"
+
+msgid "Environment"
+msgstr "Aplinka"
+
+#, java-printf-format
+msgid "Vendor: %s"
+msgstr "Gamintojas: %s"
+
+#, java-printf-format
+msgid "Java runtime path: %s"
+msgstr "Java vykdymo aplinkos kelias: %s"
+
+#, java-printf-format
+msgid "JavaFX runtime version: %s"
+msgstr "JavaFX vykdymo aplinkos versija: %s"
+
+#, java-printf-format
+msgid "PDF engine (Sejda SDK) version: %s"
+msgstr "PDF variklis (Sejda SDK) versija: %s"
+
+#, java-format
+msgid "Max memory {0}"
+msgstr "Maksimali atmintis {0}"
+
+msgid "Copy to clipboard"
+msgstr "Kopijuoti į iškarpinę"
+
+msgid "Support"
+msgstr "Palaikymas"
+
+msgid "Bug and feature requests"
+msgstr "Klaidų ir funkcijų užklausos"
+
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+msgid "Contribute"
+msgstr "Prisidėti"
+
+msgid "Fork PDFsam on GitHub"
+msgstr "Išsišakokite PDFsam GitHub'e"
+
+msgid "Translate"
+msgstr "Išversti"
+
+msgid "Donate"
+msgstr "Paaukoti"
+
+msgid "Social"
+msgstr "Socialiniai tinklai"
+
+#~ msgid "Follow us on Twitter"
+#~ msgstr "Sekite mus Twitter puslapyje"
+
+msgid "Like us on Facebook"
+msgstr "Pamėkite mus Facebooke"
+
+msgid "About"
+msgstr "Apie"
+
+msgid "Home"
+msgstr "Pradžia"
+
+msgid "Premium features"
+msgstr "Premium ypatybės"
+
+msgid "Log register rows:"
+msgstr "Žurnalo registro eilutės:"
+
+msgid "Maximum number of rows displayed by the Log register"
+msgstr "Didžiausias žurnalo registro rodomų eilučių skaičius"
+
+msgid "Language:"
+msgstr "Kalba:"
+
+msgid "Set your preferred language (restart needed)"
+msgstr "Nustatyti Jūsų mėgstamą kalbą (reikės paleisti programą iš naujo)"
+
+msgid "Startup tool:"
+msgstr "Paleidimo įrankis:"
+
+msgid "Set the tool to open at application startup (restart needed)"
+msgstr ""
+"Nustatyti, kad įrankis atsidarytų paleidus programą (reikia paleisti iš "
+"naujo)"
+
+msgid "Theme:"
+msgstr "Tema:"
+
+msgid "Set the application theme"
+msgstr "Nustatyti programos temą"
+
+msgid "Font size:"
+msgstr "Šrifto dydis:"
+
+msgid "Set the application font size"
+msgstr "Nustatyti programos šrifto dydį"
+
+msgid "Manually selected"
+msgstr "Rankiniu pasirinktas"
+
+msgid ""
+"Automatically set the destination directory to the selected PDF document "
+"directory"
+msgstr ""
+"Automatiškai nustatyti paskirties katalogą į pasirinkto PDF dokumento "
+"katalogą"
+
+msgid "Settings"
+msgstr "Nustatymai"
+
+msgid "Appearance"
+msgstr "Išvaizda"
+
+msgid "Behavior"
+msgstr "Elgsena"
+
+msgid "Output"
+msgstr "Išvestis"
+
+msgid "Check for updates now"
+msgstr "Tikrinti, ar yra naujinimų dabar"
+
+msgid "Select a directory where documents will be saved and loaded by default"
+msgstr ""
+"Pasirinkti aplanką, kuriame pagal nutylėjimą bus saugomi ir įkeliami "
+"dokumentai"
+
+msgid "Select a directory"
+msgstr "Pasirinkti katalogą"
+
+msgid ""
+"Select a previously saved workspace that will be automatically loaded at "
+"startup"
+msgstr ""
+"Pasirinkite anksčiau išsaugotą darbo sritį kuri bus automatiškai įkelta "
+"paleidžiant"
+
+msgid "Select a workspace"
+msgstr "Pasirinkti darbo sritį"
+
+msgid "Default working directory:"
+msgstr "Numatytasis darbinis katalogas:"
+
+msgid "Load default workspace at startup:"
+msgstr "Įkelti numatytąją darbo sritį paleidžiant programą:"
+
+msgid "System default"
+msgstr "Sistemos numatytasis"
+
+msgid "Check for updates at startup"
+msgstr "Paleidžiant tikrinti ar yra atnaujinimų"
+
+msgid ""
+"Set whether new version availability should be checked on startup (restart "
+"needed)"
+msgstr ""
+"Nustatyti, ar tikrinti naujas versijas paleidžiant (reikia paleisti iš "
+"naujo)"
+
+msgid "Check for news at startup"
+msgstr "Tikrinti naujienas paleidžiant"
+
+msgid ""
+"Set whether the application should check for news availability on startup "
+"(restart needed)"
+msgstr ""
+"Nustatyti, ar programa turėtų tikrinti naujienų prieinamumą paleidus (reikia "
+"paleisti iš naujo)"
+
+msgid "Enabled PDF compression"
+msgstr "Įjungta PDF kompresija"
+
+msgid "Set whether \"Compress output file\" should be enabled by default"
+msgstr ""
+"Nustatyti, ar „Suspausti išvesties failą“ turėtų būti įjungta pagal "
+"numatytuosius nustatymus"
+
+msgid "Overwrite files"
+msgstr "Perrašyti failus"
+
+msgid "Set whether \"Overwrite if already exists\" should be enabled by default"
+msgstr ""
+"Nustatykite, ar „Perrašyti, jei jau yra“ turėtų būti įjungta pagal "
+"numatytuosius nustatymus"
+
+msgid "Play alert sounds"
+msgstr "Naudoti įspėjamuosius garsus"
+
+msgid "Turn on or off alert sounds"
+msgstr "Įjungti ar išjungti įspėjamuosius garsus"
+
+msgid "Store passwords when saving a workspace file"
+msgstr "Saugoti slaptažodžius išsaugant darbo srities failą"
+
+msgid ""
+"If an encrypted PDF document has been opened with a password, save the "
+"password in the workspace file"
+msgstr ""
+"Jei užšifruotas PDF dokumentas buvo atidarytas su slaptažodžiu, išsaugoti "
+"slaptažodį darbo srities faile"
+
+msgid "Show donation window"
+msgstr "Rodyti paaukojimo langą"
+
+msgid ""
+"Turn on or off the notification appearing once in a while and asking the "
+"user to support PDFsam with a donation"
+msgstr ""
+"Įjungti arba išjungti retkarčiais pasirodantį pranešimą, prašantį vartotojo "
+"paremti PDFsam auka"
+
+msgid "Show premium features"
+msgstr "Rodyti premium ypatybes"
+
+msgid ""
+"Set whether the application should fetch and show premium features "
+"description in the modules dashboard"
+msgstr ""
+"Nustatyti, ar programa turėtų gauti ir rodyti aukščiausios kokybės funkcijų "
+"aprašymą modulių valdymo pulte"
+
+msgid "Ask for a confirmation when clearing the selection table"
+msgstr "Prašyti patvirtinimo išvalant pasirinkimo lentelę"
+
+msgid ""
+"Set whether the application should ask for a confirmation when clearing the "
+"selection table"
+msgstr ""
+"Nustatyti, ar programa turėtų prašyti patvirtinimo valant pasirinkimo "
+"lentelę"
+
+msgid "Use the selected PDF document directory as output directory"
+msgstr "Naudoti pasirinktą PDF dokumentų katalogą kaip išvesties katalogą"
+
+msgid "Save default workspace on exit"
+msgstr "Išsaugoti numatytąjį darbo sritį išeinant"
+
+msgid "If a default workspace is set, save it on application exit"
+msgstr ""
+"Jei nustatyta numatytoji darbo sritis, išsaugoti ją programai išjungus"
+
+msgid "Maximum number of rows mast be a positive number"
+msgstr "Maksimalus eilučių skaičius turi būti teigiamas skaičius"
+
+msgid "Summary"
+msgstr "Santrauka"
+
+msgid "Keywords"
+msgstr "Raktiniai žodžiai"
+
+msgid "Document details"
+msgstr "Dokumento informacija"
+
+msgid "Show errors"
+msgstr "Rodyti klaidas"
+
+msgid "Input parameters are invalid"
+msgstr "Įvesties parametrai yra negaliojantys"
+
+msgid "Invalid parameters"
+msgstr "Neteisingi parametrai"
+
+msgid "Access denied"
+msgstr "Prieiga uždrausta"
+
+#, java-format
+msgid ""
+"Unable to access \"{0}\", please make sure you have write permissions or "
+"open the application messages for details."
+msgstr ""
+"Nepavyksta pasiekti \"{0}\", įsitikinkite, kad turite rašymo teises arba "
+"atidarykite programos pranešimus, kad gautumėte daugiau informacijos."
+
+#, java-format
+msgid "You performed {0} tasks with PDFsam, did it help?"
+msgstr "Atlikote {0} užduočių su PDFsam, ar tai padėjo?"
+
+msgid "Give something back"
+msgstr "Atsilyginti"
+
+msgid "PDFsam worked hard!"
+msgstr "PDFsam įdėjo daug pastangų!"
+
+msgid "Spread the word!"
+msgstr "Paskleiskite žinią!"
+
+#, java-format
+msgid "PDFsam {0} is available for download"
+msgstr "PDFsam {0} galima atsisiųsti"
+
+msgid "Download"
+msgstr "Atsisiųsti"
+
+msgid "New version available"
+msgstr "Yra nauja versija"
+
+msgid "You are running the latest version of PDFsam Basic"
+msgstr "Jūs naudojate naujausią PDFsam Basic versiją"
+
+msgid "No update"
+msgstr "Nėra atnaujinimo"
+
+msgid "Open"
+msgstr "Atverti"
+
+#, java-format
+msgid "File \"{0}\" does not exist or is invalid"
+msgstr "Failas \"{0}\" neegzistuoja arba yra netinkamas"
+
+msgid "Valid user password provided."
+msgstr "Pateiktas tinkamas vartotojo slaptažodis."
+
+msgid "This document is encrypted, click to provide a password."
+msgstr ""
+"Šis dokumentas yra užšifruotas, spauskite, kad pateiktumėte slaptažodį."
+
+msgid "An error has occurred, click for more details."
+msgstr "Įvyko klaida, spustelėkite, kad gautumėte daugiau informacijos."
+
+msgid "Split tools"
+msgstr "Padalijimo įrankiai"
+
+msgid "Merge tools"
+msgstr "Sujungimo įrankiai"
+
+msgid "Convert tools"
+msgstr "Konvertavimo įrankiai"
+
+msgid "Edit tools"
+msgstr "Redagavimo įrankiai"
+
+msgid "Other tools"
+msgstr "Kiti įrankiai"
+
+msgid "Checking for updates"
+msgstr "Tikrinama, ar yra naujinimų"
+
+msgid "Unable to find the latest available version."
+msgstr "Nepavyko rasti naujausios prieinamos versijos."
+
+#, java-format
+msgid "Unable to find any valid PDF file in the list: {0}"
+msgstr "Nepavyko rasti jokio galiojančio PDF failo sąraše: {0}"
+
+#, java-format
+msgid "Unable to load PDF list file from {0}"
+msgstr "Nepavyko įkelti PDF sąrašo failo iš {0}"
+
+msgid "Loading pdf documents"
+msgstr "Įkeliami pdf dokumentai"
+
+msgid "Documents loaded"
+msgstr "Dokumentai įkelti"
+
+msgid "Unable to retrieve premium features description"
+msgstr "Nepavyko gauti premium funkcijų aprašymo"
+
+msgid "Fetching premium modules"
+msgstr "Gaunami premium moduliai"
+
+msgid "Unable to retrieve premium modules"
+msgstr "Nepavyko gauti premium modulių"
+
+msgid "Unable to retrieve latest news"
+msgstr "Nepavyko gauti naujausių naujienų"
+
+msgid "Fetching latest news"
+msgstr "Gaunamos naujausios naujienos"
+
+msgid "Unable to retrieve the latest news"
+msgstr "Nepavyko gauti naujausių naujienų"
+
+#, java-format
+msgid "Saving workspace data to {0}"
+msgstr "Išsaugomi darbo srities duomenys į {0}"
+
+msgid "Workspace saved"
+msgstr "Darbo sritis išsaugota"
+
+msgid "Requesting modules state"
+msgstr "Užklausiama modulių būsena"
+
+#, java-format
+msgid "Unable to save workspace to {0}"
+msgstr "Nepavyko išsaugoti darbo srities į {0}"
+
+#, java-format
+msgid "Loading workspace from {0}"
+msgstr "Įkeliama darbo sritis iš {0}"
+
+#~ msgid "Workspace loaded"
+#~ msgstr ""
+
+#, java-format
+msgid "Unable to load workspace from {0}"
+msgstr "Nepavyko įkelti darbo srities iš {0}"
+
+msgid "Light with blue"
+msgstr "Šviesus su mėlyna"
+
+msgid "Dark with purple"
+msgstr "Tamsus su violetine"
+
+msgid "Dark with teal"
+msgstr "Tamsus su turkio"
+
+msgid "Light with maroon"
+msgstr "Šviesus su bordo"
+
+msgid "Close"
+msgstr "Užverti"
+
+msgid "The selected PDF document is invalid"
+msgstr "Pasirinktas PDF dokumentas netinkamas"
+
+msgid "Select the PDF file"
+msgstr "Pasirinkite PDF failą"
+
+msgid "_Select PDF"
+msgstr "_Pasirinkti PDF"
+
+#~ msgid "Clear all settings"
+#~ msgstr ""
+
+#, java-format
+msgid "Pages: {0}, PDF Version: {1}"
+msgstr "Puslapiai: {0}, PDF versija: {1}"
+
+msgid "Loading..."
+msgstr "Įkeliama..."
+
+msgid "Document properties"
+msgstr "Dokumento savybės"
+
+msgid "Remove"
+msgstr "Pašalinti"
+
+msgid "Set destination"
+msgstr "Išsaugoti kaip"
+
+msgid "Open Folder"
+msgstr "Atidaryti aplanką"
+
+msgid "Enter the user password"
+msgstr "Įveskite vartotojo slaptažodį"
+
+msgid "Unlock"
+msgstr "Atrakinti"
+
+msgid "Drag and drop PDF files here"
+msgstr "Vilkite ir numeskite PDF failus čia"
+
+msgid "Set as range for all"
+msgstr "Nustatyti kaip diapazoną visiems"
+
+msgid "Move to Top"
+msgstr "Perkelti į viršų"
+
+msgid "Move Up"
+msgstr "Perkelti aukštyn"
+
+msgid "Move Down"
+msgstr "Perkelti žemyn"
+
+msgid "Move to Bottom"
+msgstr "Perkelti į apačią"
+
+msgid "Duplicate"
+msgstr "Dublikuoti"
+
+msgid "Selected pages"
+msgstr "Pasirinkti puslapiai"
+
+msgid "Total number of selected pages"
+msgstr "Viso pasirinktų puslapių skaičius"
+
+msgid "Size"
+msgstr "Dydis"
+
+msgid "Modified"
+msgstr "Pakeista"
+
+#, java-format
+msgid "Total pages: {0}"
+msgstr "Viso puslapių: {0}"
+
+msgid "Name"
+msgstr "Pavadinimas"
+
+msgid "Add documents to the table"
+msgstr "Pridėti dokumentus į lentelę"
+
+msgid "_Add"
+msgstr "_Pridėti"
+
+msgid "PDF list from _text/csv file"
+msgstr "PDF sąrašas iš _text/csv failo"
+
+msgid "Select pdf documents to load"
+msgstr "Pasirinkite pdf dokumentus įkelti"
+
+msgid "Select a text or CSV file to load"
+msgstr "Pasirinkite tekstinį arba CSV failą įkelti"
+
+msgid "Removes selected documents"
+msgstr "Pašalina pasirinktus dokumentus"
+
+msgid "_Remove"
+msgstr "_Pašalinti"
+
+msgid "Removes every document"
+msgstr "Pašalina kiekvieną dokumentą"
+
+msgid "C_lear all settings"
+msgstr "I_švalyti visus nustatymus"
+
+msgid "Moves up selected documents"
+msgstr "Perkelia aukštyn pasirinktus dokumentus"
+
+msgid "Move _Up"
+msgstr "Perkelti _Aukštyn"
+
+msgid "Moves down selected documents"
+msgstr "Perkelia pasirinktus dokumentus žemyn"
+
+msgid "Move _Down"
+msgstr "Perkelti _Žemyn"
+
+msgid "Pace"
+msgstr "Tempas"
+
+msgid ""
+"Double click to set the number of pages after which the task will switch to "
+"the next file"
+msgstr ""
+"Dukart spustelėkite, kad nustatytumėte puslapių skaičių, po kurio užduotis "
+"pereis prie kito failo"
+
+msgid "Reverse"
+msgstr "Apversti"
+
+msgid "Pages"
+msgstr "Puslapiai"
+
+msgid "Number of total pages of the document"
+msgstr "Dokumento bendras puslapių skaičius"
+
+msgid "Double click to set selected pages (ex: 2 or 5-23 or 2,5-7,12-)"
+msgstr ""
+"Dukart spustelėkite norėdami nustatyti pasirinktus puslapius (pvz.: 2 arba 5-"
+"23 arba 2,5-7,12-)"
+
+msgid "Page ranges"
+msgstr "Puslapių diapazonai"
+
+msgid "Select a file"
+msgstr "Pasirinkti failą"
+
+msgid "The selected file must exist. "
+msgstr "Pasirinktas failas turi egzistuoti. "
+
+#, java-format
+msgid "Allowed extensions are {0}"
+msgstr "Leidžiami plėtiniai yra {0}"
+
+msgid "Compress output file/files"
+msgstr "Suspausti rezultato failą/failus"
+
+msgid ""
+"Tick the box if you don't want to retain any bookmark from the original PDF "
+"document"
+msgstr ""
+"Pažymėkite langelį, jei nenorite išsaugoti jokių žymių iš originalaus PDF "
+"dokumento"
+
+msgid "Output PDF version:"
+msgstr "Išvesties PDF versija:"
+
+msgid "Show advanced settings"
+msgstr "Rodyti išplėstinius nustatymus"
+
+msgid "Hide advanced settings"
+msgstr "Slėpti išplėstinius nustatymus"
+
+msgid "Overwrite if already exists"
+msgstr "Perrašyti failą, jei toks jau egzistuoja:"
+
+msgid ""
+"Tick the box if you want to overwrite the output files if they already exist."
+""
+msgstr ""
+"Pažymėkite langelį, jei norite perrašyti išvesties failus, jei jie jau "
+"egzistuoja."
+
+#, java-format
+msgid "Version {0}"
+msgstr "Versija {0}"
+
+msgid "Same as the input document"
+msgstr "Toks pat kaip pradinis dokumentas"
+
+msgid "An existing output directory is required"
+msgstr "Reikalingas esamas išvesties katalogas"
+
+msgid "The output directory is required"
+msgstr "Išvesties aplankas privalomas"
+
+msgid "Select an existing directory"
+msgstr "Pasirinkite esantį katalogą"
+
+msgid "Select"
+msgstr "Pasirinkti"
+
+msgid "Browse"
+msgstr "Naršyti"
+
+#, java-format
+msgid "PDF version required: {0}"
+msgstr "Reikalinga PDF versija: {0}"
+
+msgid "Prefix for the generated files names"
+msgstr "Priešdėlis sugeneruotų failų pavadinimams"
+
+msgid "Add prefix"
+msgstr "Pridėti priešdėlį"
+
+msgid "DEFAULT_PREFIX"
+msgstr "NUMATYTASIS_PRIEŠDĖLIS"
+
+msgid "Generated PDF documents name prefix:"
+msgstr "Sugeneruotų PDF dokumentų pavadinimo priešdėlis:"
+
+msgid "Prefix for the output files name."
+msgstr "Išvesties failų pavadinimo priešdėlis."
+
+msgid "Some special keywords are replaced with runtime values."
+msgstr ""
+"Kai kurie specialūs raktiniai žodžiai pakeičiami vykdymo laiko reikšmėmis."
+
+msgid "Right click to add these keywords."
+msgstr "Dešiniuoju spustelėkite norėdami pridėti šiuos raktinius žodžius."
+
+msgid "Run"
+msgstr "Vykdyti"
+
+msgid "Run the task"
+msgstr "Vykdyti užduotį"
+
+msgid "Requested"
+msgstr "Prašoma"
+
+msgid "Completed"
+msgstr "Baigta"
+
+msgid "Failed"
+msgstr "Nepavyko"
+
+msgid "Running"
+msgstr "Vykdoma"
+
+#, java-format
+msgid "Running {0}%"
+msgstr "Vykdoma {0}%"
+
+#~ msgid "Error saving log file."
+#~ msgstr ""
+
+#, java-format
+#~ msgid "File {0} saved."
+#~ msgstr ""
+
+#, java-format
+msgid "Invalid range: {0}."
+msgstr "Neteisingas diapazonas: {0}."
+
+#, java-format
+msgid ""
+"Ambiguous page range definition: {0}. Use following formats: [n] or [n1-n2] "
+"or [-n] or [n-]"
+msgstr ""
+"Dviprasmiškas puslapių diapazono apibrėžimas: {0}. Naudokite šiuos formatus: "
+"[n] arba [n1-n2] arba [-n] arba [n-]"
+
+#, java-format
+msgid "Invalid number: {0}."
+msgstr "Neteisingas skaičius: {0}."
+
+#~ msgid "Split even pages"
+#~ msgstr "Atskirti lyginius puslapius"
+
+#~ msgid "Split odd pages"
+#~ msgstr "Atskirti nelyginius puslapius"
+
+#~ msgid "Destination folder"
+#~ msgstr "Paskirties aplankas"
+
+#~ msgid "Output document pdf version:"
+#~ msgstr "Rezultato dokumento pdf versija:"
+
+#~ msgid "Unable to get latest available version"
+#~ msgstr "Nepavyko gauti naujausios išleistos versijos"
+
+#~ msgid "Never"
+#~ msgstr "Niekada"
+
+#~ msgid ""
+#~ "Show a dialog box asking the user for confirmation when the \"overwrite\" is "
+#~ "selected"
+#~ msgstr ""
+#~ "Rodyti dialogo langą prašant vartotojo patvirtinimo kai pasirinktas "
+#~ "\"perrašyti\""
+
+#~ msgid "Ask for confirmation when overwrite checkbox is selected"
+#~ msgstr "Prašyti patvirtinimo kai pažymėtas punktas \"perrašyti\""
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "Ar norite jį perrašyti?"
+
+msgid "Pages to extract (ex: 2 or 5-23 or 2,5-7,12- or 3,last)"
+msgstr ""
+"Išskiriami puslapiai (pvz.: 2 arba 5-23 arba 2,5-7,12- arba 3,paskutinis)"
+
+msgid ""
+"Comma separated page numbers or ranges to extract (ex: 2 or 5-23 or 2,5-7,12-"
+" or 3,last)"
+msgstr ""
+"Kableliais atskirti puslapių numeriai arba diapazonai ištraukimui (pvz.: 2 "
+"arba 5-23 arba 2,5-7,12- arba 3,paskutinis)"
+
+msgid "Merge multiple PDF documents or subsections of them."
+msgstr "Sujungti kelis PDF dokumentus arba jų dalis."
+
+msgid "A .pdf extension is required for the repeating file"
+msgstr "Pasikartojančiam failui reikalingas .pdf plėtinys"
+
+msgid "A .pdf destination file extension is required"
+msgstr "Reikalingas .pdf paskirties failo plėtinys"
+
+msgid "Default PDF version:"
+msgstr "Numatytoji PDF versija:"
+
+msgid "Default PDF version for generated PDF files"
+msgstr "Numatytoji PDF versija generuojamiems PDF failams"
+
+msgid "Default prefix:"
+msgstr "Numatytasis priešdėlis:"
+
+msgid ""
+"Default prefix for output file names, used in tools that generate multiple "
+"files"
+msgstr ""
+"Numatytasis prefiksas išvesties failų pavadinimams, naudojamas įrankiuose, "
+"kurie generuoja kelis failus"
+
+msgid "Set whether \"Discard bookmarks\" should be enabled by default"
+msgstr ""
+"Nustatykite, ar „Atmesti žymes“ turėtų būti įjungta pagal numatytuosius "
+"nustatymus"
+
+#, java-format
+msgid "Workspace loaded: {0}"
+msgstr "Darbo sritis įkelta: {0}"
+
+#, java-format
+msgid "The following file already existed and was skipped: {0}"
+msgstr "Šis failas jau egzistavo ir buvo praleistas: {0}"
+
+msgid "Duplicate at Top"
+msgstr "Dublikuoti viršuje"
+
+msgid "Duplicate Up"
+msgstr "Dublikuoti aukštyn"
+
+msgid "Duplicate Down"
+msgstr "Dublikuoti žemyn"
+
+msgid "Duplicate at Bottom"
+msgstr "Dublikuoti apačioje"
+
+#, java-format
+msgid "Error saving content to file {0}"
+msgstr "Klaida išsaugant turinį į failą {0}"
+
+#, java-format
+msgid "File {0} saved"
+msgstr "Failas {0} išsaugotas"
+
+msgid "Error saving content to clipboard"
+msgstr "Klaida išsaugant turinį į iškarpinę"
+
+msgid "Follow us on Bluesky"
+msgstr "Sekite mus „Bluesky“"
+
+msgid "Font:"
+msgstr "Šriftas:"
+
+msgid "Sets the application font"
+msgstr "Nustato programos šriftą"
+
+msgid "Default"
+msgstr "Numatytasis"
+
+msgid "Light"
+msgstr "Šviesus"
+
+msgid "Dark"
+msgstr "Tamsus"
+
+msgid "Unlock selected"
+msgstr "Atrakinti pasirinktus"
+
+msgid "Workspace has changed"
+msgstr "Darbvieta ir mainījusies"
+
+msgid "Do you want to save it?"
+msgstr "Vai vēlaties to saglabāt?"
+
+msgid "Set as pace for all"
+msgstr ""

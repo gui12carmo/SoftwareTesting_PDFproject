@@ -1,0 +1,97 @@
+/**
+ * News
+ */
+.news-container {
+    -fx-padding: 1.166666em, 0.5em, 1.166666em, 0.5em;
+}
+
+.scrollable-news {
+    -fx-background-color: -newspane-background-color;
+    -fx-background-insets: 0.0;
+}
+
+.scrollable-news .viewport {
+    -fx-background-color: -newspane-background-color;
+}
+
+.news-panel-container {
+    -fx-padding: 1.416667em;
+}
+
+.news-panel {
+    -fx-background-color: -pdfsam-border-color, -newspane-background-color;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 6.0;
+    -fx-effect: -pdfsam-shadow-effect;
+    -fx-max-width: 25em;
+    -fx-spacing: 0.416667em;
+}
+
+.news-panel-content {
+    -fx-spacing: 0.75em;
+}
+
+.news-panel-title {
+    -fx-font-size: 1.25em;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-padding: 0.0 0.0 0.25em;
+}
+
+.news-box-title {
+    -fx-font-weight: bold;
+    -fx-fill: -default-font-color;
+    -fx-wrap-text: true;
+    -fx-padding: 0.0 0.0 0.166667em;
+}
+
+.news-box-title:hover {
+    -fx-underline: true;
+    -fx-cursor: hand;
+}
+
+.news-box-title-important {
+    -fx-fill: -news-important-color;
+}
+
+.news-box {
+    -fx-background-color: -newspane-background-color;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 0.0;
+    -fx-padding: 0.416667em;
+}
+
+.news-box-footer {
+    -fx-padding: 0.333333em 0.0 0.0 0.0;
+}
+
+.news-content {
+    -fx-wrap-text: true;
+    -fx-fill: -default-font-color;
+}
+
+.news-not-up-to-date > .ikonli-font-icon {
+    -fx-text-fill: -default-primary !important;
+    -fx-fill: -default-primary !important;
+    -fx-icon-color: -default-primary !important;
+}
+
+.news-btn {
+    -fx-background-color: -newspane-btn-color;
+}
+
+.news-btn .ikonli-font-icon {
+    -fx-font-size: 1em;
+}
+
+.news-btn:hover {
+    -fx-background-color: -newspane-btn-color-hover;
+}
+
+.news-btn:focus-visible {
+    -fx-background-color: -newspane-btn-focus-color, -newspane-btn-color;
+}
+
+.news-btn:focus-visible:hover {
+    -fx-background-color: -newspane-btn-focus-color-hover, -newspane-btn-color-hover;
+}

@@ -1,0 +1,58 @@
+/**
+ * Progress panel
+ */
+.footer-pane {
+	-fx-background-color: -default-background-color;
+	-fx-background-insets: 0.0;
+    -fx-background-radius: 0.0;
+	-fx-spacing: 0.5em;
+	-fx-alignment: bottom-center;
+	-fx-max-height: 3.916666em;
+    -fx-min-height: 3.916666em;
+	-fx-padding: 0.666667em 0;
+}
+.progress-pane {
+	-fx-alignment: bottom-left;
+	-fx-min-height: 2.5em;
+	-fx-spacing: 0.416667em;
+}
+.progress-pane .status-label {
+	-fx-background-color: -status-label-color;
+	-fx-background-radius: 4.0;
+	-fx-padding: 0 0.833333em;
+	-fx-font-size: 0.833333em;
+	-fx-pref-height: 0.8em;
+	-fx-max-height: 1.4em;
+    -fx-min-height: 0.8em;
+	-fx-font-weight: bold;
+}
+.footer-pane .progress-bar {
+   -fx-indeterminate-bar-escape: false;
+   -fx-indeterminate-bar-animation-time: 1.0;
+   -fx-max-height: 0.416667em;
+   -fx-min-height: 0.416667em;
+   -fx-pref-height: 0.416667em;
+}
+.footer-pane  .progress-bar > .bar {
+  	-fx-background-color:  -progress-bar-progress-color;
+  	-fx-background-insets: 0.0;
+   	-fx-background-radius:  0.25em;
+}
+.footer-pane  .progress-bar:indeterminate > .bar {
+  	-fx-background-color:  -progress-bar-progress-color;
+  	-fx-background-insets: 0.0;
+   	-fx-background-radius:  0.166667em;			
+}
+.footer-pane  .progress-bar:indeterminate > .track {  	
+  	-fx-background-color:  -progress-bar-color;
+  	-fx-background-insets: 0.0;
+   	-fx-background-radius:  0.166667em;				
+}
+.footer-pane  .progress-bar > .track {
+  	-fx-background-color:  -progress-bar-color;
+  	-fx-background-insets: 0.0;
+   	-fx-background-radius:  0.166667em;			
+}
+.progress-pane .status-label {
+	-fx-background-radius: 0.166667em;	
+}
