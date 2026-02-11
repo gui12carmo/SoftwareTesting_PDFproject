@@ -2,12 +2,12 @@ package org.pdfsam.model;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.sejda.model.outline.OutlinePolicy;
+import org.sejda.model.pdf.PdfVersion;
+import org.sejda.model.rotation.Rotation;
+
 import java.util.Arrays;
-// --- IMPORTS DAS FUNCIONALIDADES REAIS ---
-// Importamos as "peças" do motor Sejda (o motor do PDFsam) para testar se estão inteiras.
-import org.sejda.model.pdf.PdfVersion;      // Controla a versão do arquivo (Acrobat 5, 6, 7...)
-import org.sejda.model.outline.OutlinePolicy; // Controla os Marcadores/Sumário (Manter ou Apagar)
-import org.sejda.model.rotation.Rotation;     // Controla a Matemática da Rotação (Graus)
+
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -68,9 +68,6 @@ public class TrabalhoEscolaTest {
         assertTrue(PdfVersion.values()[0].name().contains("VERSION"));
     }
 
-
-
-    // ==================================================================================
     // CLASSE 2: OutlinePolicy (Política de Marcadores/Bookmarks)
     // Cenário: Ferramenta "Merge". O usuário junta 3 PDFs e quer manter o sumário original.
     // ==================================================================================
@@ -119,9 +116,6 @@ public class TrabalhoEscolaTest {
         assertNotNull(OutlinePolicy.values());
     }
 
-
-
-    // ==================================================================================
     // CLASSE 3: Rotation (Matemática da Rotação)
     // Cenário: Ferramenta "Rotate". O usuário clica para girar a página.
     // ==================================================================================
