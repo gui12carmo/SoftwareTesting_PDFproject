@@ -30,6 +30,8 @@ open module org.pdfsam.model {
     requires transitive javafx.graphics;
     requires transitive org.sejda.commons;
     requires transitive org.sejda.model;
+    requires org.testng;
+    requires junit;
 
     exports org.pdfsam.model;
     exports org.pdfsam.model.log;
