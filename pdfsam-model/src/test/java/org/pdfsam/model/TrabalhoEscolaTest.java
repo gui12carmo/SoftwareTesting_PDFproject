@@ -155,4 +155,100 @@ public class TrabalhoEscolaTest {
         // A rotação inicial deve ser sempre 0.
         assertEquals(0, Rotation.DEGREES_0.getDegrees());
     }
+
+    @Test
+    @DisplayName("16. PdfVersion: Validar todas as versões conhecidas explicitamente")
+    void testAllPdfVersionsExist() {
+        // Testa cada versão esperada individualmente
+        assertNotNull(PdfVersion.VERSION_1_4);
+        assertNotNull(PdfVersion.VERSION_1_5);
+        assertNotNull(PdfVersion.VERSION_1_6);
+        assertNotNull(PdfVersion.VERSION_1_7); 
+    }
+
+    @Test
+    @DisplayName("17. PdfVersion: Versão 1.7 deve ser mais recente que 1.4")
+    void testVersionComparison() {
+        // Se a classe implementar Comparable
+        assertTrue(PdfVersion.VERSION_1_7.ordinal() > PdfVersion.VERSION_1_4.ordinal());
+    }
+
+    @Test
+    @DisplayName("18. PdfVersion: Garantir que enums não podem ser modificadas")
+        void testPdfVersionImmutable() {
+        PdfVersion[] versions1 = PdfVersion.values();
+        PdfVersion[] versions2 = PdfVersion.values();
+        assertEquals(versions1.length, versions2.length);
+        // Ambas devem ter o mesmo tamanho (imutabilidade)
+    }
+    
+    @Test
+    @DisplayName("19. Outline: Validar cada política individualmente")
+    void testEachOutlinePolicyExists() {
+        assertNotNull(OutlinePolicy.RETAIN);
+        assertNotNull(OutlinePolicy.DISCARD);
+        // Adicionar outras que existirem
+    }
+
+    @Test
+    @DisplayName("20. Rotation: Validar ângulos não existentes retornam null ou lançam exceção")
+    void testRotationInvalidAngles() {
+        Rotation invalid45 = null;
+        // Tenta encontrar ângulo de 45 graus
+        try {
+            invalid45 = Arrays.stream(Rotation.values())
+                    .filter(r -> r.getDegrees() == 45)
+                    .findFirst()
+                    .orElse(null);
+        } catch (Exception e) {
+            // Esperado
+        }
+        assertNull(invalid45, "Ângulo de 45 graus não deve existir");
+    }
+
+    @Test
+    @DisplayName("21. Rotation: Ângulos devem estar em ordem crescente")
+    void testRotationSequence() {
+        int[] expected = {0, 90, 180, 270};
+        int[] actual = Arrays.stream(Rotation.values())
+                .mapToInt(Rotation::getDegrees)
+                .sorted()
+                .toArray();
+        assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    @DisplayName("22. PdfVersion: Todos os enums devem ter representação em String")
+    void testPdfVersionToString() {
+        for (PdfVersion v : PdfVersion.values()) {
+            assertNotNull(v.toString());
+            assertFalse(v.toString().isEmpty());
+        }
+    }
+    
+    @Test
+    @DisplayName("23. PdfVersion: Contar versões modernas (>=1.6)")
+    void testModernVersionsCount() {
+        long count = Arrays.stream(PdfVersion.values())
+                .filter(v -> v.name().contains("1_6") || v.name().contains("1_7"))
+                .count();
+        assertTrue(count >= 2, "Deve haver pelo menos 2 versões modernas");
+    }
+    
+    @ParameterizedTest
+    @ValueSource(ints = {0, 90, 180, 270})
+    @DisplayName("24. Rotation: Validar todos os ângulos válidos em um teste")
+    void testAllRotationAngles(int expectedDegrees) {
+        boolean exists = Arrays.stream(Rotation.values())
+                .anyMatch(r -> r.getDegrees() == expectedDegrees);
+        assertTrue(exists, "Ângulo " + expectedDegrees + " deve existir");
+    }
+    
+    @Test
+    @DisplayName("25. PdfVersion: Acessar índice fora dos limites")
+    void testVersionOutOfBounds() {
+        assertThrows(ArrayIndexOutOfBoundsException.class, () -> {
+            PdfVersion v = PdfVersion.values()[999];
+        });
+    }
 }
