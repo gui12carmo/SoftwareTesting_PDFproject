@@ -7,6 +7,9 @@ import org.sejda.model.pdf.PdfVersion;
 import org.sejda.model.rotation.Rotation;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.regex.Pattern;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -156,6 +159,56 @@ public class TrabalhoEscolaTest {
         assertEquals(0, Rotation.DEGREES_0.getDegrees());
     }
 
+    /**
+ * TESTES UNITÁRIOS - GABRIELLA
+ * Objetivo: validar integridade de enums usados em opções/configurações do PDFsam.
+ * Estes testes garantem consistência interna e evitam menus quebrados ou opções inválidas.
+ */
+
+    @Test
+    @DisplayName("G1. PdfVersion: nenhuma versão pode ser nula e o nome não pode ser vazio")
+    void pdfVersion_shouldNotHaveNullOrEmptyNames() {
+        for (PdfVersion v : PdfVersion.values()) {
+            assertNotNull(v, "Encontrou PdfVersion nulo");
+            assertFalse(v.name().isBlank(), "Encontrou PdfVersion com nome vazio");
+        }
+    }
+
+    @Test
+    @DisplayName("G2. PdfVersion: nomenclatura deve seguir padrão VERSION_1_X (ex: VERSION_1_7)")
+    void pdfVersion_namesShouldMatchExpectedPattern() {
+        Pattern pattern = Pattern.compile("^VERSION_\\d_\\d$");
+
+        for (PdfVersion v : PdfVersion.values()) {
+            assertTrue(pattern.matcher(v.name()).matches(),
+                    "Nome fora do padrão esperado: " + v.name());
+        }
+    }
+
+    @Test
+    @DisplayName("G3. Rotation: graus devem ser apenas {0, 90, 180, 270}")
+    void rotation_degreesMustBeValidSet() {
+        Set<Integer> valid = Set.of(0, 90, 180, 270);
+
+        for (Rotation r : Rotation.values()) {
+            assertTrue(valid.contains(r.getDegrees()),
+                    "Grau inválido encontrado: " + r.getDegrees());
+        }
+    }
+
+    @Test
+    @DisplayName("G4. Rotation: graus não podem se repetir (unicidade)")
+    void rotation_degreesMustBeUnique() {
+        int[] degrees = Arrays.stream(Rotation.values())
+                .mapToInt(Rotation::getDegrees)
+                .toArray();
+
+        Set<Integer> unique = new HashSet<>();
+        for (int d : degrees) {
+            assertTrue(unique.add(d), "Grau repetido encontrado: " + d);
+        }
+    }
+    
     //Parte do Thales Pires Nº2024475
     @Test
     @DisplayName("16. PdfVersion: Validar todas as versões conhecidas explicitamente")
