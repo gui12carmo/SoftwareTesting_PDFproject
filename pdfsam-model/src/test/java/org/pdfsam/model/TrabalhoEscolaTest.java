@@ -2,7 +2,6 @@ package org.pdfsam.model;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.sejda.model.outline.OutlinePolicy;
 import org.sejda.model.pdf.PdfVersion;
 import org.sejda.model.rotation.Rotation;
 import java.util.Arrays;
@@ -17,6 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * OBJETIVO: Validar a integridade das Enums de configuração (Versões, Políticas e Rotações).
  * IMPACTO: Garante que a interface do utilizador não apresente menus vazios ou opções inválidas.
  */
+
 public class TrabalhoEscolaTest {
 
     // ==================================================================================
