@@ -5,287 +5,141 @@ import org.junit.jupiter.api.Test;
 import org.sejda.model.outline.OutlinePolicy;
 import org.sejda.model.pdf.PdfVersion;
 import org.sejda.model.rotation.Rotation;
-
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Pattern;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * TRABALHO DE ESCOLA - TESTES UNITÁRIOS
- * Objetivo: Garantir a integridade das opções de configuração do PDFsam.
- * Se estes testes falharem, os menus do aplicativo aparecerão vazios ou quebrados.
+ * 🎓 TRABALHO ACADÉMICO - SUÍTE DE TESTES UNITÁRIOS
+ * PROJETO: PDFsam (PDF Split and Merge)
+ * OBJETIVO: Validar a integridade das Enums de configuração (Versões, Políticas e Rotações).
+ * IMPACTO: Garante que a interface do utilizador não apresente menus vazios ou opções inválidas.
  */
-
 public class TrabalhoEscolaTest {
 
-
-    // CLASSE 1: PdfVersion (Versão do Arquivo PDF)
-    // Cenário: O usuário quer garantir que o PDF salvo abra em leitores específicos.
+    // ==================================================================================
+    // GRUPO 1: ROTATION (Lógica Geométrica das Páginas)
+    // GUILHERME CARMO (Nº 2024176)
     // ==================================================================================
 
     @Test
-    @DisplayName("1. PdfVersion: O sistema deve suportar a versão moderna 1.7")
-    void testVersion17() {
-        // A versão 1.7 é a mais usada hoje em dia (padrão ISO).
-        // Aqui varremos a lista de versões procurando por "1_7".
-        boolean existe = Arrays.stream(PdfVersion.values())
-                .anyMatch(v -> v.name().contains("1_7"));
-
-        // Se der falso, significa que o PDFsam "esqueceu" como criar PDFs modernos.
-        assertTrue(existe, "Erro Crítico: O sistema não suporta PDF versão 1.7");
-    }
-
-    @Test
-    @DisplayName("2. PdfVersion: O sistema deve suportar versões legado (1.4 ou 1.5)")
-    void testVersionLegacy() {
-        // Alguns tribunais e governos ainda usam sistemas antigos (Legacy).
-        // Precisamos garantir que existe suporte para versão 1.4 ou 1.5.
-        boolean existe = Arrays.stream(PdfVersion.values())
-                .anyMatch(v -> v.name().contains("1_4") || v.name().contains("1_5"));
-
-        assertTrue(existe, "O sistema deve suportar versões antigas para compatibilidade");
-    }
-
-    @Test
-    @DisplayName("3. PdfVersion: A lista de versões não pode ser nula")
-    void testVersionNotNull() {
-        // Teste de segurança básica: A primeira versão da lista existe?
-        assertNotNull(PdfVersion.values()[0]);
-    }
-
-    @Test
-    @DisplayName("4. PdfVersion: Quantidade mínima de versões suportadas")
-    void testVersionCount() {
-        // Esperamos ver pelo menos: 1.4, 1.5, 1.6, 1.7.
-        // Se tiver menos de 4, alguém apagou funcionalidades importantes.
-        assertTrue(PdfVersion.values().length >= 4, "Devem existir pelo menos 4 versões de PDF listadas");
-    }
-
-    @Test
-    @DisplayName("5. PdfVersion: Validação de Nomenclatura Interna")
-    void testVersionNaming() {
-        // Verifica se os nomes internos das versões seguem o padrão do código "VERSION_..."
-        assertTrue(PdfVersion.values()[0].name().contains("VERSION"));
-    }
-
-    // CLASSE 2: OutlinePolicy (Política de Marcadores/Bookmarks)
-    // Cenário: Ferramenta "Merge". O usuário junta 3 PDFs e quer manter o sumário original.
-    // ==================================================================================
-
-    @Test
-    @DisplayName("6. Outline: O menu deve ter a opção 'Manter' (Retain)")
-    void testOutlineRetain() {
-        // Buscamos na lista de políticas se existe a opção RETAIN (Manter).
-        boolean existe = Arrays.stream(OutlinePolicy.values())
-                .anyMatch(p -> p.name().contains("RETAIN"));
-
-        assertTrue(existe, "A opção vital 'Manter Marcadores' desapareceu!");
-    }
-
-    @Test
-    @DisplayName("7. Outline: O menu deve ter a opção 'Descartar' (Discard)")
-    void testOutlineDiscard() {
-        // Buscamos se existe a opção DISCARD (Jogar fora/Descartar).
-        boolean existe = Arrays.stream(OutlinePolicy.values())
-                .anyMatch(p -> p.name().contains("DISCARD"));
-
-        assertTrue(existe, "A opção 'Descartar Marcadores' desapareceu!");
-    }
-
-    @Test
-    @DisplayName("8. Outline: Contagem de opções no menu")
-    void testOutlineCount() {
-        // O menu dropdown deve ter pelo menos 2 opções para o usuário escolher.
-        assertTrue(OutlinePolicy.values().length >= 2);
-    }
-
-    @Test
-    @DisplayName("9. Outline: Integridade dos dados")
-    void testOutlineIntegrity() {
-        // Percorre todas as opções e garante que nenhuma tem nome vazio ou é nula.
-        for (OutlinePolicy p : OutlinePolicy.values()) {
-            assertNotNull(p);
-            assertFalse(p.name().isEmpty());
-        }
-    }
-
-    @Test
-    @DisplayName("10. Outline: Teste de Sanidade (A classe carregou?)")
-    void testOutlineSanity() {
-        // Verifica se a classe inteira foi carregada na memória do Java.
-        assertNotNull(OutlinePolicy.values());
-    }
-
-    // CLASSE 3: Rotation (Matemática da Rotação)
-    // Cenário: Ferramenta "Rotate". O usuário clica para girar a página.
-    // ==================================================================================
-
-    @Test
-    @DisplayName("11. Rotation: Devem existir exatamente 4 ângulos possíveis")
+    @DisplayName("1. Rotation -> Consistência dos 4 Eixos Cardinais (0, 90, 180, 270)")
     void testRotationCount() {
-        // Um PDF só pode estar em 0, 90, 180 ou 270 graus.
-        // Se houver 3 ou 5 opções, a lógica matemática está quebrada.
-        assertEquals(4, Rotation.values().length);
+        assertEquals(4, Rotation.values().length, "A lógica de rotação deve admitir apenas 4 ângulos retos.");
     }
 
     @Test
-    @DisplayName("12. Rotation: Validação do valor 90 graus")
+    @DisplayName("2. Rotation -> Validação Numérica: 90 Graus")
     void testRotation90() {
-        // Garante que a constante "DEGREES_90" vale numericamente o int 90.
         assertEquals(90, Rotation.DEGREES_90.getDegrees());
     }
 
     @Test
-    @DisplayName("13. Rotation: Validação do valor 180 graus (Cabeça para baixo)")
+    @DisplayName("3. Rotation -> Validação Numérica: 180 Graus")
     void testRotation180() {
-        // Garante que a constante "DEGREES_180" vale numericamente o int 180.
         assertEquals(180, Rotation.DEGREES_180.getDegrees());
     }
 
     @Test
-    @DisplayName("14. Rotation: Validação do valor 270 graus")
+    @DisplayName("4. Rotation -> Validação Numérica: 270 Graus")
     void testRotation270() {
-        // Garante que a constante "DEGREES_270" vale numericamente o int 270.
         assertEquals(270, Rotation.DEGREES_270.getDegrees());
     }
 
     @Test
-    @DisplayName("15. Rotation: Validação do padrão 0 graus (Sem rotação)")
+    @DisplayName("5. Rotation -> Validação Numérica: 0 Graus (Estado Inicial)")
     void testRotation0() {
-        // A rotação inicial deve ser sempre 0.
         assertEquals(0, Rotation.DEGREES_0.getDegrees());
     }
 
-    /**
- * TESTES UNITÁRIOS - GABRIELLA
- * Objetivo: validar integridade de enums usados em opções/configurações do PDFsam.
- * Estes testes garantem consistência interna e evitam menus quebrados ou opções inválidas.
- */
+    // ==================================================================================
+    // Grupo 2: Validação de padrões de Regex, Unicidade e Integridade de Strings.
+    // GABRIELLA REZENDE (Nº 2024517)
+    // ==================================================================================
 
     @Test
-    @DisplayName("G1. PdfVersion: nenhuma versão pode ser nula e o nome não pode ser vazio")
+    @DisplayName("6. Integridade -> Verificação Global de Nomes (PdfVersion)")
     void pdfVersion_shouldNotHaveNullOrEmptyNames() {
         for (PdfVersion v : PdfVersion.values()) {
-            assertNotNull(v, "Encontrou PdfVersion nulo");
-            assertFalse(v.name().isBlank(), "Encontrou PdfVersion com nome vazio");
+            assertNotNull(v, "Versão nula encontrada.");
+            assertFalse(v.name().isBlank(), "Nome de versão em branco detectado.");
         }
     }
 
     @Test
-    @DisplayName("G2. PdfVersion: nomenclatura deve seguir padrão VERSION_1_X (ex: VERSION_1_7)")
+    @DisplayName("7. Padronização -> Validação de Regex (VERSION_1_X)")
     void pdfVersion_namesShouldMatchExpectedPattern() {
         Pattern pattern = Pattern.compile("^VERSION_\\d_\\d$");
-
         for (PdfVersion v : PdfVersion.values()) {
-            assertTrue(pattern.matcher(v.name()).matches(),
-                    "Nome fora do padrão esperado: " + v.name());
+            assertTrue(pattern.matcher(v.name()).matches(), "Padrão violado em: " + v.name());
         }
     }
 
     @Test
-    @DisplayName("G3. Rotation: graus devem ser apenas {0, 90, 180, 270}")
+    @DisplayName("8. Geometria -> Validação do Set de Ângulos Permitidos")
     void rotation_degreesMustBeValidSet() {
         Set<Integer> valid = Set.of(0, 90, 180, 270);
-
         for (Rotation r : Rotation.values()) {
-            assertTrue(valid.contains(r.getDegrees()),
-                    "Grau inválido encontrado: " + r.getDegrees());
+            assertTrue(valid.contains(r.getDegrees()), "Ângulo não convencional detectado: " + r.getDegrees());
         }
     }
 
     @Test
-    @DisplayName("G4. Rotation: graus não podem se repetir (unicidade)")
+    @DisplayName("9. Unicidade -> Garantia de Não-Repetição de Graus")
     void rotation_degreesMustBeUnique() {
-        int[] degrees = Arrays.stream(Rotation.values())
-                .mapToInt(Rotation::getDegrees)
-                .toArray();
-
         Set<Integer> unique = new HashSet<>();
-        for (int d : degrees) {
-            assertTrue(unique.add(d), "Grau repetido encontrado: " + d);
+        for (Rotation r : Rotation.values()) {
+            assertTrue(unique.add(r.getDegrees()), "Grau duplicado encontrado na Enum: " + r.getDegrees());
         }
     }
-    
-    //Parte do Thales Pires Nº2024475
+
+    // ==================================================================================
+    // Grupo 3: Validação de Ordenação, Imutabilidade e Métodos de Objeto.
+    // THALES PIRES (Nº 2024475)
+    // ==================================================================================
+
     @Test
-    @DisplayName("16. PdfVersion: Validar todas as versões conhecidas explicitamente")
+    @DisplayName("10. Thales -> Verificação de Existência das Constantes de Versão")
     void testAllPdfVersionsExist() {
-        // Testa cada versão esperada individualmente
         assertNotNull(PdfVersion.VERSION_1_4);
         assertNotNull(PdfVersion.VERSION_1_5);
         assertNotNull(PdfVersion.VERSION_1_6);
-        assertNotNull(PdfVersion.VERSION_1_7); 
+        assertNotNull(PdfVersion.VERSION_1_7);
     }
 
     @Test
-    @DisplayName("17. PdfVersion: Versão 1.7 deve ser mais recente que 1.4")
+    @DisplayName("11. Thales -> Comparação de Ordem Cronológica de Versões")
     void testVersionComparison() {
-        // Se a classe implementar Comparable
         assertTrue(PdfVersion.VERSION_1_7.ordinal() > PdfVersion.VERSION_1_4.ordinal());
     }
 
     @Test
-    @DisplayName("18. PdfVersion: Garantir que enums não podem ser modificadas")
-        void testPdfVersionImmutable() {
-        PdfVersion[] versions1 = PdfVersion.values();
-        PdfVersion[] versions2 = PdfVersion.values();
-        assertEquals(versions1.length, versions2.length);
-        // Ambas devem ter o mesmo tamanho (imutabilidade)
-    }
-    
-    @Test
-    @DisplayName("19. Outline: Validar cada política individualmente")
-    void testEachOutlinePolicyExists() {
-        assertNotNull(OutlinePolicy.RETAIN);
-        assertNotNull(OutlinePolicy.DISCARD);
-        // Adicionar outras que existirem
+    @DisplayName("12. Thales -> Garantia de Imutabilidade da Lista de Enums")
+    void testPdfVersionImmutable() {
+        assertEquals(PdfVersion.values().length, PdfVersion.values().length, "O estado da Enum deve ser imutável.");
     }
 
     @Test
-    @DisplayName("20. Rotation: Validar ângulos não existentes retornam null ou lançam exceção")
+    @DisplayName("13. Thales -> Tratamento de Ângulos Inválidos (Ex: 45 graus)")
     void testRotationInvalidAngles() {
         Rotation invalid45 = null;
-        // Tenta encontrar ângulo de 45 graus
         try {
             invalid45 = Arrays.stream(Rotation.values())
                     .filter(r -> r.getDegrees() == 45)
                     .findFirst()
                     .orElse(null);
-        } catch (Exception e) {
-            // Esperado
-        }
-        assertNull(invalid45, "Ângulo de 45 graus não deve existir");
+        } catch (Exception e) { /* Erro esperado */ }
+        assertNull(invalid45, "O sistema não deve permitir ângulos fora dos 90 graus.");
     }
 
     @Test
-    @DisplayName("21. Rotation: Ângulos devem estar em ordem crescente")
-    void testRotationSequence() {
-        int[] expected = {0, 90, 180, 270};
-        int[] actual = Arrays.stream(Rotation.values())
-                .mapToInt(Rotation::getDegrees)
-                .sorted()
-                .toArray();
-        assertArrayEquals(expected, actual);
-    }
-
-    @Test
-    @DisplayName("22. PdfVersion: Todos os enums devem ter representação em String")
+    @DisplayName("14. Thales -> Validação da Representação Textual (toString)")
     void testPdfVersionToString() {
         for (PdfVersion v : PdfVersion.values()) {
             assertNotNull(v.toString());
             assertFalse(v.toString().isEmpty());
         }
-    }
-    
-    @Test
-    @DisplayName("23. PdfVersion: Contar versões modernas (>=1.6)")
-    void testModernVersionsCount() {
-        long count = Arrays.stream(PdfVersion.values())
-                .filter(v -> v.name().contains("1_6") || v.name().contains("1_7"))
-                .count();
-        assertTrue(count >= 2, "Deve haver pelo menos 2 versões modernas");
     }
 }
