@@ -156,6 +156,7 @@ public class TrabalhoEscolaTest {
         assertEquals(0, Rotation.DEGREES_0.getDegrees());
     }
 
+    //Parte do Thales Pires Nº2024475
     @Test
     @DisplayName("16. PdfVersion: Validar todas as versões conhecidas explicitamente")
     void testAllPdfVersionsExist() {
