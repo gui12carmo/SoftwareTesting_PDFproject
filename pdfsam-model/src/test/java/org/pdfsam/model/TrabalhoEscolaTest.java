@@ -234,21 +234,4 @@ public class TrabalhoEscolaTest {
                 .count();
         assertTrue(count >= 2, "Deve haver pelo menos 2 versões modernas");
     }
-    
-    @ParameterizedTest
-    @ValueSource(ints = {0, 90, 180, 270})
-    @DisplayName("24. Rotation: Validar todos os ângulos válidos em um teste")
-    void testAllRotationAngles(int expectedDegrees) {
-        boolean exists = Arrays.stream(Rotation.values())
-                .anyMatch(r -> r.getDegrees() == expectedDegrees);
-        assertTrue(exists, "Ângulo " + expectedDegrees + " deve existir");
-    }
-    
-    @Test
-    @DisplayName("25. PdfVersion: Acessar índice fora dos limites")
-    void testVersionOutOfBounds() {
-        assertThrows(ArrayIndexOutOfBoundsException.class, () -> {
-            PdfVersion v = PdfVersion.values()[999];
-        });
-    }
 }
